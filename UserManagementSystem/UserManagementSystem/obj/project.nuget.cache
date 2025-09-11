@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "D3b9r5XiEbQ=",
+  "success": true,
+  "projectFilePath": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\UserManagementSystem\\UserManagementSystem\\UserManagementSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sumon\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\Sumon\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\Sumon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\9.0.4\\swashbuckle.aspnetcore.swaggerui.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
