@@ -32,7 +32,7 @@ namespace UserManagementSystem.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddUser(UserAddCommand userAddCommand)
+        public async Task<IActionResult> AddUser([FromBody] UserAddCommand userAddCommand)
         {
             if (ModelState.IsValid)
             {

@@ -1,6 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Reflection;
 using System.Text;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -8,6 +9,7 @@ using Serilog;
 using Serilog.Events;
 using UserManagementSystem.Api;
 using UserManagementSystem.Application.Features.Users.Commands;
+using UserManagementSystem.Application.FluentValidator;
 using UserManagementSystem.Infrastructure;
 
 var configuration = new ConfigurationBuilder()
@@ -70,6 +72,11 @@ try
     #region Automapper Configuration
     builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
     #endregion
+
+    // Register FluentValidation
+    builder.Services.AddFluentValidation(fv =>
+        fv.RegisterValidatorsFromAssemblyContaining<UserCreateValidator>());
+
     builder.Services.AddDependency(); //All dependency added this method
     // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
     builder.Services.AddOpenApi();

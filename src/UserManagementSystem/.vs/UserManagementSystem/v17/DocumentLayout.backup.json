@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|solutionrelative:usermanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.application\\fluentvalidator\\usercreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|solutionrelative:usermanagementsystem.application\\fluentvalidator\\usercreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|solutionrelative:usermanagementsystem.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,11 +70,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Api\\Program.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\Program.cs*",
+              "RelativeToolTip": "UserManagementSystem.Api\\Program.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAADwv0oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:07:38.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserCreateValidator.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\FluentValidator\\UserCreateValidator.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Application\\FluentValidator\\UserCreateValidator.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\FluentValidator\\UserCreateValidator.cs",
+              "RelativeToolTip": "UserManagementSystem.Application\\FluentValidator\\UserCreateValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:02:15.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
@@ -79,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserdeleteCommandHandler.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserdeleteCommandHandler.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserdeleteCommandHandler.cs",
@@ -92,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserDeleteCommand.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserDeleteCommand.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserDeleteCommand.cs",
@@ -100,11 +134,12 @@
               "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserDeleteCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:48:17.923Z"
+              "WhenOpened": "2025-09-14T16:48:17.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "WebProfile.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\WebProfile.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Api\\WebProfile.cs",
@@ -112,24 +147,25 @@
               "RelativeToolTip": "UserManagementSystem.Api\\WebProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T15:08:31.754Z"
+              "WhenOpened": "2025-09-14T15:08:31.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GetUserByIdHandler.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserByIdHandler.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserByIdHandler.cs",
               "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserByIdHandler.cs",
               "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserByIdHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T14:50:19.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "GetUserById.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserById.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserById.cs",
@@ -137,24 +173,25 @@
               "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserById.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAiwA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T14:48:42.516Z"
+              "WhenOpened": "2025-09-14T14:48:42.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Api\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\Controllers\\UsersController.cs*",
-              "RelativeToolTip": "UserManagementSystem.Api\\Controllers\\UsersController.cs*",
-              "ViewState": "AgIAADEAAAAAAAAAAADwvzwAAAARAAAAAAAAAA==",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UserManagementSystem.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwCUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T14:19:56.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Infrastructure\\Repositories\\BaseRepository.cs",
@@ -167,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\Repositorys\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Domain\\Repositorys\\IBaseRepository.cs",
@@ -180,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UserUpdateCommandHandler.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommandHandler.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommandHandler.cs",
@@ -193,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "UserUpdateCommand.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommand.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommand.cs",
@@ -201,23 +238,25 @@
               "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T14:14:16.95Z"
+              "WhenOpened": "2025-09-14T14:14:16.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\appsettings.json",
               "RelativeDocumentMoniker": "UserManagementSystem.Api\\appsettings.json",
               "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\appsettings.json",
               "RelativeToolTip": "UserManagementSystem.Api\\appsettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-14T14:12:48.664Z"
+              "WhenOpened": "2025-09-14T14:12:48.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "GetUserQueryHandler.cs",
               "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserQueryHandler.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserQueryHandler.cs",
@@ -225,7 +264,8 @@
               "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserQueryHandler.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAiwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:31:25.558Z"
+              "WhenOpened": "2025-09-14T13:31:25.558Z",
+              "EditorCaption": ""
             }
           ]
         }
