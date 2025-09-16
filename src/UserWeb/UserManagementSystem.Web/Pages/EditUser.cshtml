@@ -1,0 +1,26 @@
+﻿@page "{id:int}"
+@model EditUserModel
+@{
+    ViewData["Title"] = "EditUser";
+}
+
+<h2>Edit User</h2>
+
+<form method="post">
+
+    <input asp-for="User.Id" type="hidden" />
+    <div class="form-group">
+        <label asp-for="User.Name"></label>
+        <input asp-for="User.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="User.UserName"></label>
+        <input asp-for="User.UserName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="User.Password"></label>
+        <input asp-for="User.Password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="/Users" class="btn btn-secondary">Cancel</a>
+</form>

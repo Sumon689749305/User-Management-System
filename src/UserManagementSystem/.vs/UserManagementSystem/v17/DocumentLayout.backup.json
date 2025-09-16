@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|solutionrelative:usermanagementsystem.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DF731F-F22D-4A84-B453-0B7BA1CC25D2}|UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DF731F-F22D-4A84-B453-0B7BA1CC25D2}|UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj|solutionrelative:usermanagementsystem.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.application\\features\\users\\commands\\userdeletecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|solutionrelative:usermanagementsystem.application\\features\\users\\commands\\userdeletecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.application\\features\\users\\commands\\userupdatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|solutionrelative:usermanagementsystem.application\\features\\users\\commands\\userupdatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.application\\features\\users\\queries\\getuserbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|solutionrelative:usermanagementsystem.application\\features\\users\\queries\\getuserbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DF731F-F22D-4A84-B453-0B7BA1CC25D2}|UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DF731F-F22D-4A84-B453-0B7BA1CC25D2}|UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj|solutionrelative:usermanagementsystem.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28062AF4-8786-4348-8B9D-1AD3B7C08C6E}|UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.domain\\repositorys\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28062AF4-8786-4348-8B9D-1AD3B7C08C6E}|UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj|solutionrelative:usermanagementsystem.domain\\repositorys\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.application\\features\\users\\queries\\getuserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|solutionrelative:usermanagementsystem.application\\features\\users\\queries\\getuserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.application\\features\\users\\queries\\getuserbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|solutionrelative:usermanagementsystem.application\\features\\users\\queries\\getuserbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.application\\features\\users\\commands\\userdeletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|solutionrelative:usermanagementsystem.application\\features\\users\\commands\\userdeletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.api\\webprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|solutionrelative:usermanagementsystem.api\\webprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.application\\features\\users\\commands\\userupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EDCB40-DCE1-4EF3-83D5-3A73BE79B37B}|UserManagementSystem.Application\\UserManagementSystem.Application.csproj|solutionrelative:usermanagementsystem.application\\features\\users\\commands\\userupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|d:\\.net alamin\\crud user\\user-management-system\\src\\usermanagementsystem\\usermanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE53C570-EBFB-4AB9-A5C7-10B4C8150A65}|UserManagementSystem.Api\\UserManagementSystem.Api.csproj|solutionrelative:usermanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "UserManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:34:54.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserdeleteCommandHandler.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserdeleteCommandHandler.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserdeleteCommandHandler.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserdeleteCommandHandler.cs",
+              "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserdeleteCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T16:49:28.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDeleteCommand.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserDeleteCommand.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserDeleteCommand.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserDeleteCommand.cs",
+              "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserDeleteCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T16:48:17.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebProfile.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\WebProfile.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Api\\WebProfile.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\WebProfile.cs",
+              "RelativeToolTip": "UserManagementSystem.Api\\WebProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T15:08:31.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetUserByIdHandler.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserByIdHandler.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserByIdHandler.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserByIdHandler.cs",
+              "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserByIdHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:50:19.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetUserById.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserById.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserById.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserById.cs",
+              "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserById.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:48:42.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "UserManagementSystem.Api\\Controllers\\UsersController.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAADwvzwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:19:56.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "UserManagementSystem.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAADwvzQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:19:13.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\Repositorys\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Domain\\Repositorys\\IBaseRepository.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\Repositorys\\IBaseRepository.cs",
+              "RelativeToolTip": "UserManagementSystem.Domain\\Repositorys\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:18:51.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserUpdateCommandHandler.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommandHandler.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommandHandler.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommandHandler.cs",
+              "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommandHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:14:52.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserUpdateCommand.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommand.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommand.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommand.cs",
+              "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Commands\\UserUpdateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:14:16.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "UserManagementSystem.Api\\appsettings.json",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Api\\appsettings.json",
+              "RelativeToolTip": "UserManagementSystem.Api\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-14T14:12:48.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetUserQueryHandler.cs",
+              "DocumentMoniker": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserQueryHandler.cs",
+              "RelativeDocumentMoniker": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserQueryHandler.cs",
+              "ToolTip": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserQueryHandler.cs",
+              "RelativeToolTip": "UserManagementSystem.Application\\Features\\Users\\Queries\\GetUserQueryHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T13:31:25.558Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
