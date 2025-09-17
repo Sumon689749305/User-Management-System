@@ -1,5 +1,7 @@
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -7,20 +9,31 @@ namespace UserManagementSystem.Web.Pages
 {
     public class LogoutModel : PageModel
     {
-        public async Task<IActionResult> OnPostAsync()
-        {
-            // Clear the cookie
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        private readonly SignInManager<IdentityUser>? _signInManager;
 
-            // Redirect to login page after logout
-            return RedirectToPage("/Login");
+        // inject SignInManager only if you use Identity; otherwise omit it
+        public LogoutModel(SignInManager<IdentityUser>? signInManager = null)
+        {
+            _signInManager = signInManager;
         }
 
         public async Task<IActionResult> OnGetAsync()
         {
-            // Also handle logout via GET (e.g., Logout link click)
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            // Delete JWT cookie explicitly
+            Response.Cookies.Delete("jwtToken");
+
+            // Optionally clear any antiforgery cookies too
+            Response.Cookies.Delete(".AspNetCore.Antiforgery.KowEZev8T1g");
+
+            // Just in case you're mixing Identity
+            await HttpContext.SignOutAsync();
+
             return RedirectToPage("/Login");
+        }
+
+        public async Task<IActionResult> OnPostAsync()
+        {
+            return await OnGetAsync();
         }
     }
 }
