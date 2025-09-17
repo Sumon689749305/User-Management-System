@@ -34,3 +34,20 @@ D:\.Net Alamin\CRUD User\User-Management-System\src\UserManagementSystem\UserMan
 D:\.Net Alamin\CRUD User\User-Management-System\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.pdb
 D:\.Net Alamin\CRUD User\User-Management-System\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.genruntimeconfig.cache
 D:\.Net Alamin\CRUD User\User-Management-System\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\ref\UserManagementSystem.Infrastructure.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\bin\Debug\net9.0\UserManagementSystem.Infrastructure.deps.json
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\bin\Debug\net9.0\UserManagementSystem.Infrastructure.runtimeconfig.json
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\bin\Debug\net9.0\UserManagementSystem.Infrastructure.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\bin\Debug\net9.0\UserManagementSystem.Infrastructure.pdb
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\bin\Debug\net9.0\UserManagementSystem.Domain.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\bin\Debug\net9.0\UserManagementSystem.Domain.pdb
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.csproj.AssemblyReference.cache
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.AssemblyInfoInputs.cache
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.AssemblyInfo.cs
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.csproj.CoreCompileInputs.cache
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserMana.DEA4BADB.Up2Date
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\refint\UserManagementSystem.Infrastructure.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.pdb
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\UserManagementSystem.Infrastructure.genruntimeconfig.cache
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\obj\Debug\net9.0\ref\UserManagementSystem.Infrastructure.dll

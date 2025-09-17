@@ -1,0 +1,766 @@
+2025-09-17 12:26:19.204 +06:00 [INF] Application Starting......
+2025-09-17 12:26:21.460 +06:00 [FTL] Application creashed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[UserManagementSystem.Application.Features.SendEmail.SendEmailCommand,System.String] Lifetime: Transient ImplementationType: UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler': Unable to resolve service for type 'UserManagementSystem.Domain.Repositorys.ISendEmailRepository' while attempting to activate 'UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[UserManagementSystem.Application.Features.SendEmail.SendEmailCommand,System.String] Lifetime: Transient ImplementationType: UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler': Unable to resolve service for type 'UserManagementSystem.Domain.Repositorys.ISendEmailRepository' while attempting to activate 'UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'UserManagementSystem.Domain.Repositorys.ISendEmailRepository' while attempting to activate 'UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Api\Program.cs:line 91
+2025-09-17 12:26:35.303 +06:00 [INF] Application Starting......
+2025-09-17 12:26:36.318 +06:00 [FTL] Application creashed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[UserManagementSystem.Application.Features.SendEmail.SendEmailCommand,System.String] Lifetime: Transient ImplementationType: UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler': Unable to resolve service for type 'UserManagementSystem.Domain.Repositorys.ISendEmailRepository' while attempting to activate 'UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[UserManagementSystem.Application.Features.SendEmail.SendEmailCommand,System.String] Lifetime: Transient ImplementationType: UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler': Unable to resolve service for type 'UserManagementSystem.Domain.Repositorys.ISendEmailRepository' while attempting to activate 'UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'UserManagementSystem.Domain.Repositorys.ISendEmailRepository' while attempting to activate 'UserManagementSystem.Application.Features.SendEmail.SendEmailCommandHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Api\Program.cs:line 91
+2025-09-17 12:27:57.736 +06:00 [INF] Application Starting......
+2025-09-17 12:27:58.970 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 12:27:59.685 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 12:28:00.173 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 12:28:00.174 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 12:28:00.177 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 12:28:00.215 +06:00 [DBG] Execution loop BackgroundServerProcess:ecaff6bb has started in 5.3698 ms
+2025-09-17 12:28:00.395 +06:00 [INF] Server desktop-c1paikg:14652:74c83192 successfully announced in 173.4005 ms
+2025-09-17 12:28:00.400 +06:00 [DBG] Execution loop ServerHeartbeatProcess:e4aaabb7 has started in 4.2711 ms
+2025-09-17 12:28:00.400 +06:00 [INF] Server desktop-c1paikg:14652:74c83192 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 12:28:00.435 +06:00 [DBG] Execution loop ServerWatchdog:1ada725b has started in 34.4227 ms
+2025-09-17 12:28:00.438 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:21dacc7b has started in 36.7543 ms
+2025-09-17 12:28:00.466 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:61375ae3 has started in 30.1617 ms
+2025-09-17 12:28:00.466 +06:00 [DBG] Execution loop ExpirationManager:eba837c8 has started in 27.3944 ms
+2025-09-17 12:28:00.496 +06:00 [DBG] Execution loop CountersAggregator:af243c86 has started in 30.3308 ms
+2025-09-17 12:28:00.497 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 12:28:00.528 +06:00 [DBG] Execution loop Worker:4330e0db has started in 62.0701 ms
+2025-09-17 12:28:00.528 +06:00 [DBG] Execution loop Worker:aef4b44b has started in 62 ms
+2025-09-17 12:28:00.529 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 12:28:00.560 +06:00 [DBG] Execution loop Worker:bf11e4d5 has started in 67.2327 ms
+2025-09-17 12:28:00.560 +06:00 [DBG] Execution loop Worker:269ac45b has started in 94.3136 ms
+2025-09-17 12:28:00.560 +06:00 [DBG] Execution loop Worker:dab195c0 has started in 94.3136 ms
+2025-09-17 12:28:00.569 +06:00 [INF] Server desktop-c1paikg:14652:74c83192 all the dispatchers started
+2025-09-17 12:28:00.960 +06:00 [DBG] Execution loop Worker:ae31ef4a has started in 494.1072 ms
+2025-09-17 12:28:00.905 +06:00 [DBG] Execution loop Worker:2dad1b39 has started in 439.2997 ms
+2025-09-17 12:28:00.964 +06:00 [DBG] Execution loop Worker:d8e8ef0b has started in 497.5477 ms
+2025-09-17 12:28:00.963 +06:00 [DBG] Execution loop Worker:4c8985ac has started in 497.3507 ms
+2025-09-17 12:28:00.963 +06:00 [DBG] Execution loop Worker:d901e9d6 has started in 495.9049 ms
+2025-09-17 12:28:00.999 +06:00 [DBG] Execution loop Worker:1cdcfa7c has started in 532.7384 ms
+2025-09-17 12:28:00.999 +06:00 [DBG] Execution loop Worker:ea10705d has started in 532.8617 ms
+2025-09-17 12:28:00.999 +06:00 [DBG] Execution loop RecurringJobScheduler:ff3d57b7 has started in 430.3334 ms
+2025-09-17 12:28:00.964 +06:00 [DBG] Execution loop Worker:e7745998 has started in 497.5469 ms
+2025-09-17 12:28:00.963 +06:00 [DBG] Execution loop Worker:85d5fbbc has started in 497.4148 ms
+2025-09-17 12:28:00.963 +06:00 [DBG] Execution loop Worker:cc3ea821 has started in 497.2854 ms
+2025-09-17 12:28:00.964 +06:00 [DBG] Execution loop Worker:54429eb7 has started in 497.5082 ms
+2025-09-17 12:28:00.964 +06:00 [DBG] Execution loop DelayedJobScheduler:86855094 has started in 395.0462 ms
+2025-09-17 12:28:00.988 +06:00 [DBG] Execution loop Worker:192ff497 has started in 521.6799 ms
+2025-09-17 12:28:00.988 +06:00 [DBG] Execution loop Worker:aa7f3f27 has started in 521.9236 ms
+2025-09-17 12:28:00.998 +06:00 [DBG] Execution loop Worker:89568eb6 has started in 532.3971 ms
+2025-09-17 12:28:00.999 +06:00 [DBG] Execution loop Worker:4ebac821 has started in 532.4858 ms
+2025-09-17 12:28:01.078 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 12:28:01.116 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 12:28:01.154 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 12:28:01.171 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 12:28:30.650 +06:00 [DBG] Server desktop-c1paikg:14652:74c83192 heartbeat successfully sent
+2025-09-17 12:28:36.010 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 12:30:35.800 +06:00 [INF] Application Starting......
+2025-09-17 12:30:37.059 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 12:30:37.514 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 12:30:37.869 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 12:30:37.869 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 12:30:37.869 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 12:30:37.907 +06:00 [DBG] Execution loop BackgroundServerProcess:defec1bf has started in 4.818 ms
+2025-09-17 12:30:38.020 +06:00 [INF] Server desktop-c1paikg:17628:008ad21e successfully announced in 110.3193 ms
+2025-09-17 12:30:38.024 +06:00 [DBG] Execution loop ServerHeartbeatProcess:5d96cec1 has started in 3.3823 ms
+2025-09-17 12:30:38.024 +06:00 [INF] Server desktop-c1paikg:17628:008ad21e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 12:30:38.029 +06:00 [DBG] Execution loop ServerWatchdog:742133b0 has started in 5.091 ms
+2025-09-17 12:30:38.029 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:260ef66e has started in 4.8533 ms
+2025-09-17 12:30:38.032 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:01f24531 has started in 5.0501 ms
+2025-09-17 12:30:38.035 +06:00 [DBG] Execution loop ExpirationManager:d50d96c3 has started in 5.5925 ms
+2025-09-17 12:30:38.038 +06:00 [DBG] Execution loop CountersAggregator:b95509c8 has started in 6.3651 ms
+2025-09-17 12:30:38.039 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 12:30:38.043 +06:00 [DBG] Execution loop Worker:83d13e2b has started in 8.2353 ms
+2025-09-17 12:30:38.043 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 12:30:38.048 +06:00 [DBG] Execution loop Worker:2d2e52ea has started in 13.3389 ms
+2025-09-17 12:30:38.051 +06:00 [DBG] Execution loop Worker:4ce51957 has started in 16.2488 ms
+2025-09-17 12:30:38.055 +06:00 [DBG] Execution loop Worker:192a1d60 has started in 19.4623 ms
+2025-09-17 12:30:38.081 +06:00 [DBG] Execution loop Worker:478aaed3 has started in 46.2904 ms
+2025-09-17 12:30:38.081 +06:00 [DBG] Execution loop Worker:e1a73dde has started in 46.2871 ms
+2025-09-17 12:30:38.085 +06:00 [DBG] Execution loop Worker:d0897b0b has started in 49.9148 ms
+2025-09-17 12:30:38.113 +06:00 [DBG] Execution loop Worker:7f06c535 has started in 78.1343 ms
+2025-09-17 12:30:38.113 +06:00 [DBG] Execution loop Worker:a4d149ee has started in 78.2288 ms
+2025-09-17 12:30:38.116 +06:00 [DBG] Execution loop Worker:32b8f573 has started in 81.1725 ms
+2025-09-17 12:30:38.145 +06:00 [DBG] Execution loop Worker:3f3f009b has started in 109.883 ms
+2025-09-17 12:30:38.145 +06:00 [DBG] Execution loop Worker:1f4c8128 has started in 109.8447 ms
+2025-09-17 12:30:38.149 +06:00 [DBG] Execution loop Worker:39051b1b has started in 113.377 ms
+2025-09-17 12:30:38.151 +06:00 [DBG] Execution loop Worker:4c88a1ae has started in 116.3504 ms
+2025-09-17 12:30:38.154 +06:00 [DBG] Execution loop Worker:15774338 has started in 119.0937 ms
+2025-09-17 12:30:38.157 +06:00 [DBG] Execution loop Worker:e8c7179f has started in 121.8119 ms
+2025-09-17 12:30:38.160 +06:00 [DBG] Execution loop Worker:2aa217f8 has started in 125.076 ms
+2025-09-17 12:30:38.191 +06:00 [DBG] Execution loop Worker:760c5d01 has started in 156.4131 ms
+2025-09-17 12:30:38.192 +06:00 [DBG] Execution loop Worker:63b8403d has started in 156.5724 ms
+2025-09-17 12:30:38.195 +06:00 [DBG] Execution loop Worker:79dc1788 has started in 160.1196 ms
+2025-09-17 12:30:38.198 +06:00 [INF] Server desktop-c1paikg:17628:008ad21e all the dispatchers started
+2025-09-17 12:30:38.198 +06:00 [DBG] Execution loop DelayedJobScheduler:e0305193 has started in 5.7687 ms
+2025-09-17 12:30:38.201 +06:00 [DBG] Execution loop RecurringJobScheduler:e9fb5d44 has started in 5.4486 ms
+2025-09-17 12:30:38.203 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 12:30:38.240 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 12:30:38.243 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 12:30:38.245 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 12:31:08.173 +06:00 [DBG] Server desktop-c1paikg:17628:008ad21e heartbeat successfully sent
+2025-09-17 12:31:38.184 +06:00 [DBG] Server desktop-c1paikg:17628:008ad21e heartbeat successfully sent
+2025-09-17 12:31:57.338 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 12:32:39.881 +06:00 [INF] Application Starting......
+2025-09-17 12:32:41.205 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 12:32:41.558 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 12:32:41.932 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 12:32:41.932 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 12:32:41.932 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 12:32:41.977 +06:00 [DBG] Execution loop BackgroundServerProcess:e6820eb3 has started in 10.701 ms
+2025-09-17 12:32:42.089 +06:00 [INF] Server desktop-c1paikg:8972:304fb767 successfully announced in 109.717 ms
+2025-09-17 12:32:42.094 +06:00 [DBG] Execution loop ServerHeartbeatProcess:9f0b0eec has started in 4.3781 ms
+2025-09-17 12:32:42.094 +06:00 [INF] Server desktop-c1paikg:8972:304fb767 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 12:32:42.098 +06:00 [DBG] Execution loop ServerWatchdog:963ffef4 has started in 3.5412 ms
+2025-09-17 12:32:42.136 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:2e09db74 has started in 37.8131 ms
+2025-09-17 12:32:42.136 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:50550337 has started in 40.8899 ms
+2025-09-17 12:32:42.142 +06:00 [DBG] Execution loop ExpirationManager:6673b77f has started in 6.1992 ms
+2025-09-17 12:32:42.148 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 12:32:42.184 +06:00 [DBG] Execution loop CountersAggregator:7b278cb7 has started in 47.6767 ms
+2025-09-17 12:32:42.185 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 12:32:42.197 +06:00 [DBG] Execution loop Worker:17cb18e9 has started in 47.0072 ms
+2025-09-17 12:32:42.201 +06:00 [DBG] Execution loop Worker:97d30786 has started in 51.1435 ms
+2025-09-17 12:32:42.206 +06:00 [DBG] Execution loop Worker:fef16191 has started in 56.2686 ms
+2025-09-17 12:32:42.210 +06:00 [DBG] Execution loop Worker:802a66ef has started in 60.2276 ms
+2025-09-17 12:32:42.215 +06:00 [DBG] Execution loop Worker:9713b0f0 has started in 64.8909 ms
+2025-09-17 12:32:42.220 +06:00 [DBG] Execution loop Worker:ee5f136e has started in 69.1167 ms
+2025-09-17 12:32:42.223 +06:00 [DBG] Execution loop Worker:e17ca2cc has started in 73.2624 ms
+2025-09-17 12:32:42.227 +06:00 [DBG] Execution loop Worker:280e5a60 has started in 77.219 ms
+2025-09-17 12:32:42.231 +06:00 [DBG] Execution loop Worker:89e4a97e has started in 80.7431 ms
+2025-09-17 12:32:42.235 +06:00 [DBG] Execution loop Worker:4e527078 has started in 84.8752 ms
+2025-09-17 12:32:42.261 +06:00 [DBG] Execution loop Worker:1e1a8dae has started in 110.8119 ms
+2025-09-17 12:32:42.261 +06:00 [DBG] Execution loop Worker:ab481ada has started in 110.8388 ms
+2025-09-17 12:32:42.264 +06:00 [DBG] Execution loop Worker:9e517eb1 has started in 113.6868 ms
+2025-09-17 12:32:42.291 +06:00 [DBG] Execution loop Worker:54ed1a57 has started in 140.982 ms
+2025-09-17 12:32:42.291 +06:00 [DBG] Execution loop Worker:47c4b5f6 has started in 140.9554 ms
+2025-09-17 12:32:42.294 +06:00 [DBG] Execution loop Worker:8f5e4a44 has started in 144.2275 ms
+2025-09-17 12:32:42.323 +06:00 [DBG] Execution loop Worker:74c50b25 has started in 173.1255 ms
+2025-09-17 12:32:42.323 +06:00 [DBG] Execution loop Worker:497fc59b has started in 173.164 ms
+2025-09-17 12:32:42.327 +06:00 [DBG] Execution loop Worker:1f5ea607 has started in 176.8745 ms
+2025-09-17 12:32:42.327 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 12:32:42.356 +06:00 [DBG] Execution loop Worker:00dcf37d has started in 206.0961 ms
+2025-09-17 12:32:42.360 +06:00 [INF] Server desktop-c1paikg:8972:304fb767 all the dispatchers started
+2025-09-17 12:32:42.360 +06:00 [DBG] Execution loop DelayedJobScheduler:b2977027 has started in 33.1377 ms
+2025-09-17 12:32:42.363 +06:00 [DBG] Execution loop RecurringJobScheduler:c9877a13 has started in 6.7002 ms
+2025-09-17 12:32:42.407 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 12:32:42.409 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 12:32:42.411 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 12:33:12.314 +06:00 [DBG] Server desktop-c1paikg:8972:304fb767 heartbeat successfully sent
+2025-09-17 12:33:13.265 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 12:37:15.748 +06:00 [INF] Application Starting......
+2025-09-17 12:37:17.154 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 12:37:17.664 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 12:37:18.011 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 12:37:18.011 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 12:37:18.011 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 12:37:18.026 +06:00 [DBG] Execution loop BackgroundServerProcess:3c7edac2 has started in 6.5844 ms
+2025-09-17 12:37:18.148 +06:00 [INF] Server desktop-c1paikg:2180:9b12d4f1 successfully announced in 119.6983 ms
+2025-09-17 12:37:18.154 +06:00 [DBG] Execution loop ServerHeartbeatProcess:bf2ff061 has started in 4.2412 ms
+2025-09-17 12:37:18.154 +06:00 [INF] Server desktop-c1paikg:2180:9b12d4f1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 12:37:18.159 +06:00 [DBG] Execution loop ServerWatchdog:c3759158 has started in 4.3226 ms
+2025-09-17 12:37:18.194 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:784568ff has started in 39.2624 ms
+2025-09-17 12:37:18.197 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:303c10cc has started in 38.521 ms
+2025-09-17 12:37:18.201 +06:00 [DBG] Execution loop ExpirationManager:0e025b90 has started in 6.1728 ms
+2025-09-17 12:37:18.226 +06:00 [DBG] Execution loop CountersAggregator:da7de134 has started in 28.2413 ms
+2025-09-17 12:37:18.227 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 12:37:18.227 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 12:37:18.231 +06:00 [DBG] Execution loop Worker:2e26b26f has started in 30.4061 ms
+2025-09-17 12:37:18.256 +06:00 [DBG] Execution loop Worker:90963a77 has started in 55.7923 ms
+2025-09-17 12:37:18.256 +06:00 [DBG] Execution loop Worker:a239532e has started in 55.7937 ms
+2025-09-17 12:37:18.259 +06:00 [DBG] Execution loop Worker:4c88c285 has started in 58.7538 ms
+2025-09-17 12:37:18.262 +06:00 [DBG] Execution loop Worker:e7f65ada has started in 61.5692 ms
+2025-09-17 12:37:18.287 +06:00 [INF] 2 servers were removed due to timeout
+2025-09-17 12:37:18.287 +06:00 [DBG] Execution loop Worker:ae567dda has started in 86.5205 ms
+2025-09-17 12:37:18.291 +06:00 [DBG] Execution loop Worker:d48ed647 has started in 90.432 ms
+2025-09-17 12:37:18.294 +06:00 [DBG] Execution loop Worker:50713415 has started in 93.0485 ms
+2025-09-17 12:37:18.297 +06:00 [DBG] Execution loop Worker:ee77d5fb has started in 96.5882 ms
+2025-09-17 12:37:18.334 +06:00 [DBG] Execution loop Worker:b3813bcb has started in 133.3024 ms
+2025-09-17 12:37:18.334 +06:00 [DBG] Execution loop Worker:7a3688b8 has started in 133.5294 ms
+2025-09-17 12:37:18.338 +06:00 [DBG] Execution loop Worker:43c78db4 has started in 137.2333 ms
+2025-09-17 12:37:18.366 +06:00 [DBG] Execution loop Worker:56937245 has started in 165.0498 ms
+2025-09-17 12:37:18.366 +06:00 [DBG] Execution loop Worker:4d5a4d83 has started in 165.1871 ms
+2025-09-17 12:37:18.369 +06:00 [DBG] Execution loop Worker:3d148836 has started in 168.3197 ms
+2025-09-17 12:37:18.369 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 12:37:18.371 +06:00 [DBG] Execution loop Worker:d334c07f has started in 170.6456 ms
+2025-09-17 12:37:18.398 +06:00 [DBG] Execution loop Worker:0ec5acfb has started in 197.3146 ms
+2025-09-17 12:37:18.398 +06:00 [DBG] Execution loop Worker:3400a386 has started in 197.3073 ms
+2025-09-17 12:37:18.401 +06:00 [DBG] Execution loop Worker:82aac74c has started in 200.3937 ms
+2025-09-17 12:37:18.432 +06:00 [DBG] Execution loop DelayedJobScheduler:f1d0f67e has started in 31.0571 ms
+2025-09-17 12:37:18.432 +06:00 [DBG] Execution loop Worker:0abad7a0 has started in 231.874 ms
+2025-09-17 12:37:18.436 +06:00 [INF] Server desktop-c1paikg:2180:9b12d4f1 all the dispatchers started
+2025-09-17 12:37:18.436 +06:00 [DBG] Execution loop RecurringJobScheduler:b1770469 has started in 4.1893 ms
+2025-09-17 12:37:18.493 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 12:37:18.507 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 12:37:18.517 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 12:37:42.862 +06:00 [WRN] Failed to process the job '1': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:44.
+MimeKit.ParseException: Unexpected token at offset 8
+   at MimeKit.MailboxAddress.Parse(ParserOptions options, String text)
+   at MimeKit.MailboxAddress.Parse(String text)
+   at UserManagementSystem.Infrastructure.Repositories.SendEmailRepository.SendEmailAsync(String toEmail, String subject, String htmlMessage) in D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\Repositories\SendEmailRepository.cs:line 27
+   at InvokeStub_TaskAwaiter.GetResult(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-17 12:37:48.275 +06:00 [DBG] Server desktop-c1paikg:2180:9b12d4f1 heartbeat successfully sent
+2025-09-17 12:37:54.158 +06:00 [INF] Application Starting......
+2025-09-17 12:37:55.653 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 12:37:56.074 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 12:37:56.472 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 12:37:56.472 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 12:37:56.473 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 12:37:56.492 +06:00 [DBG] Execution loop BackgroundServerProcess:1a590979 has started in 10.462 ms
+2025-09-17 12:37:56.631 +06:00 [INF] Server desktop-c1paikg:14864:1b3da6b0 successfully announced in 137.4616 ms
+2025-09-17 12:37:56.636 +06:00 [DBG] Execution loop ServerHeartbeatProcess:32334c39 has started in 3.6337 ms
+2025-09-17 12:37:56.636 +06:00 [INF] Server desktop-c1paikg:14864:1b3da6b0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 12:37:56.670 +06:00 [DBG] Execution loop ServerWatchdog:88e5d46f has started in 33.7448 ms
+2025-09-17 12:37:56.674 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:28bc2629 has started in 36.3459 ms
+2025-09-17 12:37:56.678 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:06caaff1 has started in 7.4956 ms
+2025-09-17 12:37:56.718 +06:00 [DBG] Execution loop ExpirationManager:48d079cb has started in 39.5678 ms
+2025-09-17 12:37:56.718 +06:00 [DBG] Execution loop CountersAggregator:8dce2a7e has started in 37.4722 ms
+2025-09-17 12:37:56.718 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 12:37:56.719 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 12:37:56.726 +06:00 [DBG] Execution loop Worker:9eaf7f9d has started in 8.5283 ms
+2025-09-17 12:37:56.726 +06:00 [DBG] Execution loop Worker:a5c34e90 has started in 8.7859 ms
+2025-09-17 12:37:56.730 +06:00 [DBG] Execution loop Worker:2550187c has started in 12.4453 ms
+2025-09-17 12:37:56.748 +06:00 [DBG] Execution loop Worker:18ee0ada has started in 30.3695 ms
+2025-09-17 12:37:56.769 +06:00 [DBG] Execution loop Worker:2d581b96 has started in 50.9117 ms
+2025-09-17 12:37:56.781 +06:00 [DBG] Execution loop Worker:24ca5464 has started in 63.4044 ms
+2025-09-17 12:37:56.817 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 12:37:56.820 +06:00 [DBG] Execution loop Worker:9c13622d has started in 102.7101 ms
+2025-09-17 12:37:56.865 +06:00 [DBG] Execution loop Worker:f43bd071 has started in 147.8612 ms
+2025-09-17 12:37:56.888 +06:00 [DBG] Execution loop Worker:1091d64f has started in 170.6086 ms
+2025-09-17 12:37:56.894 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 12:37:56.907 +06:00 [DBG] Execution loop Worker:30c37dbe has started in 188.9928 ms
+2025-09-17 12:37:56.945 +06:00 [DBG] Execution loop Worker:9eb17caa has started in 227.1706 ms
+2025-09-17 12:37:56.945 +06:00 [DBG] Execution loop Worker:1a50da14 has started in 227.7718 ms
+2025-09-17 12:37:56.949 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 12:37:56.952 +06:00 [DBG] Execution loop Worker:918135ec has started in 233.9997 ms
+2025-09-17 12:37:56.956 +06:00 [DBG] Execution loop Worker:31728276 has started in 238.2573 ms
+2025-09-17 12:37:56.965 +06:00 [DBG] Execution loop Worker:5f302e7c has started in 247.4317 ms
+2025-09-17 12:37:56.971 +06:00 [DBG] Execution loop Worker:64cf445b has started in 252.9841 ms
+2025-09-17 12:37:57.005 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 12:37:57.035 +06:00 [DBG] Execution loop Worker:4acd9c6e has started in 287.6223 ms
+2025-09-17 12:37:57.036 +06:00 [DBG] Execution loop Worker:ec5fba65 has started in 318.1025 ms
+2025-09-17 12:37:57.040 +06:00 [DBG] Execution loop Worker:49efefd9 has started in 322.6475 ms
+2025-09-17 12:37:57.046 +06:00 [DBG] Execution loop Worker:78f8ff28 has started in 327.999 ms
+2025-09-17 12:37:57.084 +06:00 [INF] Server desktop-c1paikg:14864:1b3da6b0 all the dispatchers started
+2025-09-17 12:37:57.084 +06:00 [DBG] Execution loop DelayedJobScheduler:5800acd5 has started in 44.0588 ms
+2025-09-17 12:37:57.085 +06:00 [DBG] Execution loop RecurringJobScheduler:4a362afc has started in 38.6784 ms
+2025-09-17 12:38:26.886 +06:00 [DBG] Server desktop-c1paikg:14864:1b3da6b0 heartbeat successfully sent
+2025-09-17 12:38:27.403 +06:00 [DBG] 1 scheduled job(s) processed by scheduler.
+2025-09-17 12:38:37.982 +06:00 [WRN] Failed to process the job '1': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:28.
+MimeKit.ParseException: Unexpected token at offset 8
+   at MimeKit.MailboxAddress.Parse(ParserOptions options, String text)
+   at MimeKit.MailboxAddress.Parse(String text)
+   at UserManagementSystem.Infrastructure.Repositories.SendEmailRepository.SendEmailAsync(String toEmail, String subject, String htmlMessage) in D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\Repositories\SendEmailRepository.cs:line 27
+   at InvokeStub_TaskAwaiter.GetResult(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-17 12:38:56.909 +06:00 [DBG] Server desktop-c1paikg:14864:1b3da6b0 heartbeat successfully sent
+2025-09-17 12:39:12.463 +06:00 [DBG] 1 scheduled job(s) processed by scheduler.
+2025-09-17 12:41:08.535 +06:00 [INF] Application Starting......
+2025-09-17 12:41:09.885 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 12:41:10.253 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 12:41:10.685 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 12:41:10.685 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 12:41:10.686 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 12:41:10.699 +06:00 [DBG] Execution loop BackgroundServerProcess:1dfc4b4a has started in 4.4889 ms
+2025-09-17 12:41:10.805 +06:00 [INF] Server desktop-c1paikg:11624:c671df62 successfully announced in 104.2033 ms
+2025-09-17 12:41:10.809 +06:00 [DBG] Execution loop ServerHeartbeatProcess:0e708571 has started in 3.3291 ms
+2025-09-17 12:41:10.809 +06:00 [INF] Server desktop-c1paikg:11624:c671df62 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 12:41:10.812 +06:00 [DBG] Execution loop ServerWatchdog:dff12a51 has started in 2.8424 ms
+2025-09-17 12:41:10.814 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:c634c2ab has started in 4.8655 ms
+2025-09-17 12:41:10.817 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:bb848b27 has started in 4.8625 ms
+2025-09-17 12:41:10.822 +06:00 [DBG] Execution loop CountersAggregator:cf83810d has started in 4.9583 ms
+2025-09-17 12:41:10.822 +06:00 [DBG] Execution loop ExpirationManager:a70c136b has started in 7.2678 ms
+2025-09-17 12:41:10.823 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 12:41:10.824 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 12:41:10.827 +06:00 [DBG] Execution loop Worker:1bcaca94 has started in 7.3948 ms
+2025-09-17 12:41:10.855 +06:00 [DBG] Execution loop Worker:2b183f35 has started in 36.1746 ms
+2025-09-17 12:41:10.855 +06:00 [DBG] Execution loop Worker:0553b714 has started in 36.1745 ms
+2025-09-17 12:41:10.859 +06:00 [DBG] Execution loop Worker:21566026 has started in 39.3044 ms
+2025-09-17 12:41:10.892 +06:00 [DBG] Execution loop Worker:0e4d8eae has started in 42.806 ms
+2025-09-17 12:41:10.892 +06:00 [DBG] Execution loop Worker:9a218403 has started in 72.3751 ms
+2025-09-17 12:41:10.897 +06:00 [DBG] Execution loop Worker:83f88345 has started in 77.2033 ms
+2025-09-17 12:41:10.897 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-17 12:41:10.899 +06:00 [DBG] Execution loop Worker:6bbce70f has started in 80.1424 ms
+2025-09-17 12:41:10.903 +06:00 [DBG] Execution loop Worker:5653da09 has started in 83.7137 ms
+2025-09-17 12:41:10.908 +06:00 [DBG] Execution loop Worker:b0ce02da has started in 88.4329 ms
+2025-09-17 12:41:10.935 +06:00 [DBG] Execution loop Worker:198b6f84 has started in 115.1705 ms
+2025-09-17 12:41:10.935 +06:00 [DBG] Execution loop Worker:466a8a14 has started in 115.1871 ms
+2025-09-17 12:41:10.938 +06:00 [DBG] Execution loop Worker:08d009f2 has started in 118.8008 ms
+2025-09-17 12:41:10.941 +06:00 [DBG] Execution loop Worker:89b60759 has started in 121.6792 ms
+2025-09-17 12:41:10.966 +06:00 [DBG] Execution loop Worker:cce821db has started in 146.9027 ms
+2025-09-17 12:41:10.969 +06:00 [DBG] Execution loop Worker:09cfaf36 has started in 150.1475 ms
+2025-09-17 12:41:10.974 +06:00 [DBG] Execution loop Worker:71e51490 has started in 154.6415 ms
+2025-09-17 12:41:10.976 +06:00 [DBG] Execution loop Worker:5893cd96 has started in 156.3601 ms
+2025-09-17 12:41:11.014 +06:00 [DBG] Execution loop Worker:a5455925 has started in 194.2364 ms
+2025-09-17 12:41:11.014 +06:00 [DBG] Execution loop Worker:1c7efa55 has started in 194.5662 ms
+2025-09-17 12:41:11.047 +06:00 [INF] Server desktop-c1paikg:11624:c671df62 all the dispatchers started
+2025-09-17 12:41:11.047 +06:00 [DBG] Execution loop RecurringJobScheduler:572659a0 has started in 32.3449 ms
+2025-09-17 12:41:11.047 +06:00 [DBG] Execution loop DelayedJobScheduler:f15537fc has started in 33.2848 ms
+2025-09-17 12:41:11.067 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 12:41:11.082 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 12:41:11.101 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 12:41:11.106 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 12:41:40.958 +06:00 [DBG] Server desktop-c1paikg:11624:c671df62 heartbeat successfully sent
+2025-09-17 12:42:10.986 +06:00 [DBG] Server desktop-c1paikg:11624:c671df62 heartbeat successfully sent
+2025-09-17 12:42:24.754 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 12:43:25.919 +06:00 [DBG] Server desktop-c1paikg:11624:c671df62 heartbeat successfully sent
+2025-09-17 12:43:25.937 +06:00 [WRN] Failed to process the job '4': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:34.
+System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.NameResolutionPal.ProcessResult(SocketError errorCode, GetAddrInfoExContext* context)
+   at System.Net.NameResolutionPal.GetAddressInfoExCallback(Int32 error, Int32 bytes, NativeOverlapped* overlapped)
+--- End of stack trace from previous location ---
+   at System.Net.Dns.<GetAddrInfoWithTelemetryAsync>g__CompleteAsync|34_0[T](Task task, String hostName, Int64 startingTimeStamp)
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, CancellationToken cancellationToken)
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, Int32 timeout, CancellationToken cancellationToken)
+   at MailKit.MailService.ConnectNetworkAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at UserManagementSystem.Infrastructure.Repositories.SendEmailRepository.SendEmailAsync(String subject, String htmlMessage) in D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Infrastructure\Repositories\SendEmailRepository.cs:line 31
+   at InvokeStub_TaskAwaiter.GetResult(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-17 12:43:55.934 +06:00 [DBG] Server desktop-c1paikg:11624:c671df62 heartbeat successfully sent
+2025-09-17 12:44:10.978 +06:00 [DBG] 1 scheduled job(s) processed by scheduler.
+2025-09-17 12:44:12.629 +06:00 [WRN] Failed to process the job '1': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:04.
+System.InvalidOperationException: The type `UserManagementSystem.Infrastructure.Repositories.SendEmailRepository` does not contain a method with signature `SendEmailAsync(String, String, String)`
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 350
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+2025-09-17 12:45:05.785 +06:00 [INF] Application Starting......
+2025-09-17 12:45:07.024 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 12:45:07.388 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 12:45:07.794 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 12:45:07.794 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 12:45:07.794 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 12:45:07.846 +06:00 [DBG] Execution loop BackgroundServerProcess:ada0f6ad has started in 46.4018 ms
+2025-09-17 12:45:07.961 +06:00 [INF] Server desktop-c1paikg:15384:7d144c57 successfully announced in 113.8158 ms
+2025-09-17 12:45:07.966 +06:00 [DBG] Execution loop ServerHeartbeatProcess:92024d9e has started in 3.4865 ms
+2025-09-17 12:45:07.966 +06:00 [INF] Server desktop-c1paikg:15384:7d144c57 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 12:45:07.969 +06:00 [DBG] Execution loop ServerWatchdog:04cf0df6 has started in 2.7395 ms
+2025-09-17 12:45:07.972 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:45cf1dbd has started in 5.2507 ms
+2025-09-17 12:45:08.012 +06:00 [DBG] Execution loop CountersAggregator:462a4f44 has started in 37.2976 ms
+2025-09-17 12:45:08.012 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:9ebaf3f3 has started in 42.2024 ms
+2025-09-17 12:45:08.012 +06:00 [DBG] Execution loop ExpirationManager:e44bf5b4 has started in 39.8928 ms
+2025-09-17 12:45:08.043 +06:00 [DBG] Execution loop Worker:110f1ae9 has started in 30.8467 ms
+2025-09-17 12:45:08.043 +06:00 [DBG] Execution loop Worker:b522e057 has started in 30.9792 ms
+2025-09-17 12:45:08.044 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 12:45:08.044 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 12:45:08.052 +06:00 [DBG] Execution loop Worker:b130f5ea has started in 39.9529 ms
+2025-09-17 12:45:08.052 +06:00 [DBG] Execution loop Worker:1bda19d8 has started in 40.0453 ms
+2025-09-17 12:45:08.055 +06:00 [DBG] Execution loop Worker:bbd513d8 has started in 43.1214 ms
+2025-09-17 12:45:08.058 +06:00 [DBG] Execution loop Worker:203cc8e7 has started in 46.6888 ms
+2025-09-17 12:45:08.061 +06:00 [DBG] Execution loop Worker:7a14a066 has started in 49.5864 ms
+2025-09-17 12:45:08.064 +06:00 [DBG] Execution loop Worker:22372104 has started in 52.4997 ms
+2025-09-17 12:45:08.068 +06:00 [DBG] Execution loop Worker:d3593f49 has started in 56.6359 ms
+2025-09-17 12:45:08.071 +06:00 [DBG] Execution loop Worker:cbe0c780 has started in 59.4248 ms
+2025-09-17 12:45:08.074 +06:00 [DBG] Execution loop Worker:6d435da3 has started in 62.6864 ms
+2025-09-17 12:45:08.107 +06:00 [DBG] Execution loop Worker:b85637c8 has started in 95.5292 ms
+2025-09-17 12:45:08.107 +06:00 [DBG] Execution loop Worker:71007490 has started in 95.8066 ms
+2025-09-17 12:45:08.112 +06:00 [INF] 2 servers were removed due to timeout
+2025-09-17 12:45:08.114 +06:00 [DBG] Execution loop Worker:1093e26a has started in 102.6969 ms
+2025-09-17 12:45:08.114 +06:00 [DBG] Execution loop Worker:767f82e0 has started in 102.7883 ms
+2025-09-17 12:45:08.119 +06:00 [DBG] Execution loop Worker:c8d6c2ce has started in 107.6289 ms
+2025-09-17 12:45:08.154 +06:00 [DBG] Execution loop Worker:50affae2 has started in 142.2565 ms
+2025-09-17 12:45:08.154 +06:00 [DBG] Execution loop Worker:c1ea555c has started in 142.2566 ms
+2025-09-17 12:45:08.154 +06:00 [DBG] Execution loop Worker:ff3c44ee has started in 142.3565 ms
+2025-09-17 12:45:08.185 +06:00 [INF] Server desktop-c1paikg:15384:7d144c57 all the dispatchers started
+2025-09-17 12:45:08.185 +06:00 [DBG] Execution loop DelayedJobScheduler:b1b7474e has started in 30.6937 ms
+2025-09-17 12:45:08.185 +06:00 [DBG] Execution loop Worker:04600c07 has started in 173.8285 ms
+2025-09-17 12:45:08.185 +06:00 [DBG] Execution loop RecurringJobScheduler:3e6948f8 has started in 30.4846 ms
+2025-09-17 12:45:08.190 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 12:45:08.234 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 12:45:08.237 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 12:45:08.239 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 12:45:23.460 +06:00 [WRN] Failed to process the job '1': an exception occurred. Retry attempt 4 of 10 will be performed in 00:02:32.
+System.InvalidOperationException: The type `UserManagementSystem.Infrastructure.Repositories.SendEmailRepository` does not contain a method with signature `SendEmailAsync(String, String, String)`
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 350
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+2025-09-17 12:45:23.523 +06:00 [DBG] 1 scheduled job(s) processed by scheduler.
+2025-09-17 12:45:38.144 +06:00 [DBG] Server desktop-c1paikg:15384:7d144c57 heartbeat successfully sent
+2025-09-17 12:46:06.866 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 12:46:08.184 +06:00 [DBG] Server desktop-c1paikg:15384:7d144c57 heartbeat successfully sent
+2025-09-17 12:46:38.201 +06:00 [DBG] Server desktop-c1paikg:15384:7d144c57 heartbeat successfully sent
+2025-09-17 12:57:00.529 +06:00 [INF] Application Starting......
+2025-09-17 12:57:02.240 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 12:57:02.711 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 12:57:03.194 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 12:57:03.194 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 12:57:03.194 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 12:57:03.203 +06:00 [DBG] Execution loop BackgroundServerProcess:95071b8b has started in 4.9944 ms
+2025-09-17 12:57:03.335 +06:00 [INF] Server desktop-c1paikg:16184:1b020cac successfully announced in 125.3281 ms
+2025-09-17 12:57:03.340 +06:00 [DBG] Execution loop ServerHeartbeatProcess:93c32800 has started in 4.7127 ms
+2025-09-17 12:57:03.341 +06:00 [INF] Server desktop-c1paikg:16184:1b020cac is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 12:57:03.345 +06:00 [DBG] Execution loop ServerWatchdog:ac50cb96 has started in 4.0782 ms
+2025-09-17 12:57:03.348 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:9b2afb2d has started in 7.0538 ms
+2025-09-17 12:57:03.352 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:203e8819 has started in 7.3507 ms
+2025-09-17 12:57:03.391 +06:00 [DBG] Execution loop Worker:b4be8314 has started in 34.3621 ms
+2025-09-17 12:57:03.391 +06:00 [DBG] Execution loop ExpirationManager:9c823111 has started in 39.0396 ms
+2025-09-17 12:57:03.391 +06:00 [DBG] Execution loop CountersAggregator:62351877 has started in 38.4887 ms
+2025-09-17 12:57:03.391 +06:00 [DBG] Execution loop Worker:4f45948e has started in 34.4467 ms
+2025-09-17 12:57:03.392 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 12:57:03.396 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 12:57:03.396 +06:00 [DBG] Execution loop Worker:a753f48d has started in 39.1542 ms
+2025-09-17 12:57:03.399 +06:00 [DBG] Execution loop Worker:747e8bd5 has started in 42.4892 ms
+2025-09-17 12:57:03.435 +06:00 [DBG] Execution loop Worker:a4e20b52 has started in 78.5152 ms
+2025-09-17 12:57:03.435 +06:00 [DBG] Execution loop Worker:66abebc7 has started in 78.5183 ms
+2025-09-17 12:57:03.439 +06:00 [DBG] Execution loop Worker:dd9fec3c has started in 82.4595 ms
+2025-09-17 12:57:03.467 +06:00 [DBG] Execution loop Worker:b5eb4743 has started in 109.5895 ms
+2025-09-17 12:57:03.467 +06:00 [DBG] Execution loop Worker:212c2f0a has started in 109.862 ms
+2025-09-17 12:57:03.471 +06:00 [INF] 2 servers were removed due to timeout
+2025-09-17 12:57:03.471 +06:00 [DBG] Execution loop Worker:70a6d538 has started in 114.0888 ms
+2025-09-17 12:57:03.498 +06:00 [DBG] Execution loop Worker:2dd55573 has started in 141.2021 ms
+2025-09-17 12:57:03.506 +06:00 [DBG] Execution loop Worker:15f1dd90 has started in 148.9854 ms
+2025-09-17 12:57:03.506 +06:00 [DBG] Execution loop Worker:22baa4f8 has started in 146.7473 ms
+2025-09-17 12:57:03.509 +06:00 [DBG] Execution loop Worker:a52f00be has started in 152.3909 ms
+2025-09-17 12:57:03.512 +06:00 [DBG] Execution loop Worker:bed920ff has started in 155.5784 ms
+2025-09-17 12:57:03.545 +06:00 [DBG] Execution loop Worker:ed8ce98a has started in 188.2233 ms
+2025-09-17 12:57:03.545 +06:00 [DBG] Execution loop Worker:b0b11cc7 has started in 188.3167 ms
+2025-09-17 12:57:03.576 +06:00 [DBG] Execution loop Worker:073bae64 has started in 219.5166 ms
+2025-09-17 12:57:03.576 +06:00 [DBG] Execution loop Worker:1ce69612 has started in 219.6384 ms
+2025-09-17 12:57:03.576 +06:00 [DBG] Execution loop Worker:c8f980e5 has started in 219.6547 ms
+2025-09-17 12:57:03.581 +06:00 [DBG] Execution loop DelayedJobScheduler:ca1d3a75 has started in 4.3876 ms
+2025-09-17 12:57:03.584 +06:00 [INF] Server desktop-c1paikg:16184:1b020cac all the dispatchers started
+2025-09-17 12:57:03.624 +06:00 [DBG] Execution loop RecurringJobScheduler:c67cc828 has started in 46.5217 ms
+2025-09-17 12:57:03.626 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 12:57:03.668 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 12:57:03.681 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 12:57:03.686 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 12:57:04.424 +06:00 [WRN] Failed to process the job '1': an exception occurred. Retry attempt 5 of 10 will be performed in 00:05:06.
+System.InvalidOperationException: The type `UserManagementSystem.Infrastructure.Repositories.SendEmailRepository` does not contain a method with signature `SendEmailAsync(String, String, String)`
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 350
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+2025-09-17 12:57:04.552 +06:00 [DBG] 1 scheduled job(s) processed by scheduler.
+2025-09-17 12:57:33.517 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 12:58:03.575 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 12:58:33.594 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 12:58:34.559 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 12:59:03.610 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 12:59:33.625 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:00:03.641 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:00:33.666 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:01:03.670 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:01:33.678 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:02:03.678 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:02:03.695 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:02:19.955 +06:00 [WRN] Failed to process the job '1': an exception occurred. Retry attempt 6 of 10 will be performed in 00:11:46.
+System.InvalidOperationException: The type `UserManagementSystem.Infrastructure.Repositories.SendEmailRepository` does not contain a method with signature `SendEmailAsync(String, String, String)`
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 350
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+2025-09-17 13:02:19.968 +06:00 [DBG] 1 scheduled job(s) processed by scheduler.
+2025-09-17 13:02:33.715 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:03:03.734 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:03:33.751 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:04:03.766 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:04:33.780 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:05:03.790 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:05:33.817 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:06:03.829 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:06:33.860 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:07:03.759 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:07:03.883 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:07:33.924 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:08:03.951 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:08:33.971 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:09:03.978 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:09:33.996 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:10:04.000 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:10:34.020 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:11:04.044 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:11:34.064 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:12:03.853 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:12:04.105 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:12:34.141 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:13:04.586 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:13:34.606 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:14:04.632 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:14:06.297 +06:00 [WRN] Failed to process the job '1': an exception occurred. Retry attempt 7 of 10 will be performed in 00:22:12.
+System.InvalidOperationException: The type `UserManagementSystem.Infrastructure.Repositories.SendEmailRepository` does not contain a method with signature `SendEmailAsync(String, String, String)`
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 350
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+2025-09-17 13:14:06.327 +06:00 [DBG] 1 scheduled job(s) processed by scheduler.
+2025-09-17 13:14:34.662 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:15:04.680 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:15:34.704 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:16:04.717 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:16:34.735 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:17:04.290 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:17:04.748 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:17:34.769 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:18:04.777 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:18:34.810 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:19:04.822 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:19:34.842 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:20:04.898 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:20:34.905 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:21:04.943 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:21:34.950 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:22:04.411 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:22:04.965 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:22:34.981 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:23:04.995 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:23:35.001 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:24:05.024 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:24:35.035 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:25:05.042 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:25:35.062 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:26:05.075 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:26:35.093 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:27:04.448 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:27:04.510 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 13:27:04.514 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 13:27:04.519 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 13:27:04.523 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 13:27:04.526 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 13:27:05.109 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:27:35.127 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:28:05.135 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:28:35.155 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:29:05.169 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:29:35.191 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:30:05.202 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:30:35.217 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:31:05.232 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:31:35.244 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:32:04.506 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:32:05.249 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:32:35.281 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:33:05.370 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:33:35.384 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:34:05.531 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:34:35.541 +06:00 [DBG] Server desktop-c1paikg:16184:1b020cac heartbeat successfully sent
+2025-09-17 13:42:42.946 +06:00 [INF] Application Starting......
+2025-09-17 13:42:44.561 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 13:42:45.045 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 13:42:45.462 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 13:42:45.463 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 13:42:45.463 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 13:42:45.498 +06:00 [DBG] Execution loop BackgroundServerProcess:eebaaa0d has started in 23.5696 ms
+2025-09-17 13:42:45.655 +06:00 [INF] Server desktop-c1paikg:21656:68b8340d successfully announced in 147.2157 ms
+2025-09-17 13:42:45.661 +06:00 [DBG] Execution loop ServerHeartbeatProcess:f6fa869a has started in 4.6024 ms
+2025-09-17 13:42:45.663 +06:00 [INF] Server desktop-c1paikg:21656:68b8340d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 13:42:45.668 +06:00 [DBG] Execution loop ServerWatchdog:74fb6499 has started in 4.7136 ms
+2025-09-17 13:42:45.672 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:04d9fd58 has started in 3.884 ms
+2025-09-17 13:42:45.701 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:f9e4568a has started in 32.397 ms
+2025-09-17 13:42:45.701 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-17 13:42:45.706 +06:00 [DBG] Execution loop ExpirationManager:6d58bea2 has started in 31.4367 ms
+2025-09-17 13:42:45.707 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 13:42:45.751 +06:00 [DBG] Execution loop CountersAggregator:5df42fb6 has started in 48.8337 ms
+2025-09-17 13:42:45.751 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:42:45.761 +06:00 [DBG] Execution loop Worker:1710e27a has started in 49.8714 ms
+2025-09-17 13:42:45.768 +06:00 [DBG] Execution loop Worker:fc528a68 has started in 56.6157 ms
+2025-09-17 13:42:45.775 +06:00 [DBG] Execution loop Worker:27150991 has started in 63.7946 ms
+2025-09-17 13:42:45.791 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 13:42:45.792 +06:00 [DBG] Execution loop Worker:4f2f75ef has started in 80.4573 ms
+2025-09-17 13:42:45.798 +06:00 [DBG] Execution loop Worker:2751ff66 has started in 87.0753 ms
+2025-09-17 13:42:45.814 +06:00 [DBG] Execution loop Worker:399fea8f has started in 101.2609 ms
+2025-09-17 13:42:45.879 +06:00 [DBG] Execution loop Worker:3273e707 has started in 167.593 ms
+2025-09-17 13:42:45.914 +06:00 [DBG] Execution loop Worker:50ddb176 has started in 202.5649 ms
+2025-09-17 13:42:45.922 +06:00 [DBG] Execution loop Worker:6e997a05 has started in 210.637 ms
+2025-09-17 13:42:45.924 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 13:42:45.933 +06:00 [DBG] Execution loop Worker:18baf7da has started in 221.3883 ms
+2025-09-17 13:42:45.940 +06:00 [DBG] Execution loop Worker:64cc3da8 has started in 228.0455 ms
+2025-09-17 13:42:45.945 +06:00 [DBG] Execution loop Worker:718979ce has started in 234.0174 ms
+2025-09-17 13:42:45.957 +06:00 [DBG] Execution loop Worker:9ff7d280 has started in 245.7539 ms
+2025-09-17 13:42:45.963 +06:00 [DBG] Execution loop Worker:13418e4d has started in 251.4099 ms
+2025-09-17 13:42:45.969 +06:00 [DBG] Execution loop Worker:1c59c59e has started in 257.7461 ms
+2025-09-17 13:42:46.007 +06:00 [DBG] Execution loop Worker:d0b67f03 has started in 295.4215 ms
+2025-09-17 13:42:46.007 +06:00 [DBG] Execution loop Worker:a0f33de8 has started in 295.6438 ms
+2025-09-17 13:42:46.010 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 13:42:46.015 +06:00 [DBG] Execution loop Worker:aedf3669 has started in 303.9403 ms
+2025-09-17 13:42:46.019 +06:00 [DBG] Execution loop Worker:75cd5cc7 has started in 307.6268 ms
+2025-09-17 13:42:46.062 +06:00 [DBG] Execution loop DelayedJobScheduler:764d4176 has started in 42.6074 ms
+2025-09-17 13:42:46.062 +06:00 [DBG] Execution loop Worker:b5d4a397 has started in 350.2237 ms
+2025-09-17 13:42:46.062 +06:00 [INF] Server desktop-c1paikg:21656:68b8340d all the dispatchers started
+2025-09-17 13:42:46.066 +06:00 [DBG] Execution loop RecurringJobScheduler:57a2b40c has started in 4.9713 ms
+2025-09-17 13:42:46.110 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 13:42:46.515 +06:00 [WRN] Failed to process the job '1': an exception occurred. Retry attempt 8 of 10 will be performed in 00:41:20.
+System.InvalidOperationException: The type `UserManagementSystem.Infrastructure.Repositories.SendEmailRepository` does not contain a method with signature `SendEmailAsync(String, String, String)`
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 350
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+2025-09-17 13:42:46.681 +06:00 [DBG] 1 scheduled job(s) processed by scheduler.
+2025-09-17 13:43:02.837 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 13:43:02.837 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 13:43:15.906 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:43:45.936 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:44:15.984 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:44:46.003 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:45:16.041 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:45:46.055 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:46:16.066 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:46:46.086 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:47:16.111 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:47:46.123 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:47:46.185 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:48:16.129 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:48:46.152 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:49:16.159 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:49:46.182 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:50:16.265 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:50:46.275 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:51:16.425 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:51:46.440 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:52:16.458 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:52:46.450 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:52:46.468 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:53:16.509 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:53:46.542 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:54:16.559 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:54:46.597 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:55:16.617 +06:00 [DBG] Server desktop-c1paikg:21656:68b8340d heartbeat successfully sent
+2025-09-17 13:58:01.687 +06:00 [INF] Application Starting......
+2025-09-17 13:58:03.796 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 13:58:04.508 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-17 13:58:05.109 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-17 13:58:05.111 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 13:58:05.111 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 13:58:05.161 +06:00 [DBG] Execution loop BackgroundServerProcess:217b23c5 has started in 43.8726 ms
+2025-09-17 13:58:05.381 +06:00 [INF] Server desktop-c1paikg:16760:bfb636d6 successfully announced in 208.6288 ms
+2025-09-17 13:58:05.393 +06:00 [DBG] Execution loop ServerHeartbeatProcess:c2816b43 has started in 10.9014 ms
+2025-09-17 13:58:05.394 +06:00 [INF] Server desktop-c1paikg:16760:bfb636d6 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 13:58:05.423 +06:00 [DBG] Execution loop ServerWatchdog:32d50df8 has started in 28.5765 ms
+2025-09-17 13:58:05.426 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:6b55e803 has started in 31.8638 ms
+2025-09-17 13:58:05.432 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:d81eed87 has started in 4.5796 ms
+2025-09-17 13:58:05.438 +06:00 [DBG] Execution loop ExpirationManager:f3c54093 has started in 10.0075 ms
+2025-09-17 13:58:05.441 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-17 13:58:05.514 +06:00 [DBG] Execution loop CountersAggregator:ba851cf4 has started in 78.5394 ms
+2025-09-17 13:58:05.515 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 13:58:05.522 +06:00 [DBG] Execution loop Worker:acd1caac has started in 8.3932 ms
+2025-09-17 13:58:05.531 +06:00 [DBG] Execution loop Worker:c56b281f has started in 17.1381 ms
+2025-09-17 13:58:05.535 +06:00 [DBG] Execution loop Worker:53f77a3a has started in 21.3873 ms
+2025-09-17 13:58:05.542 +06:00 [DBG] Execution loop Worker:d47213c8 has started in 27.623 ms
+2025-09-17 13:58:05.576 +06:00 [DBG] Execution loop Worker:46eb3e4e has started in 62.5666 ms
+2025-09-17 13:58:05.577 +06:00 [DBG] Execution loop Worker:24e724bc has started in 63.3966 ms
+2025-09-17 13:58:05.594 +06:00 [DBG] Execution loop Worker:4e27d6ee has started in 80.1909 ms
+2025-09-17 13:58:05.601 +06:00 [DBG] Execution loop Worker:969d00c7 has started in 87.5114 ms
+2025-09-17 13:58:05.608 +06:00 [DBG] Execution loop Worker:0ee9912c has started in 93.6133 ms
+2025-09-17 13:58:05.612 +06:00 [DBG] Execution loop Worker:885b4dc1 has started in 98.0224 ms
+2025-09-17 13:58:05.612 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-17 13:58:05.639 +06:00 [DBG] Execution loop Worker:fc314d24 has started in 124.6539 ms
+2025-09-17 13:58:05.673 +06:00 [DBG] Execution loop Worker:d601b678 has started in 158.6414 ms
+2025-09-17 13:58:05.679 +06:00 [DBG] Execution loop Worker:88ed757a has started in 164.8498 ms
+2025-09-17 13:58:05.688 +06:00 [DBG] Execution loop Worker:c6810fad has started in 174.584 ms
+2025-09-17 13:58:05.718 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-17 13:58:05.722 +06:00 [DBG] Execution loop Worker:0b07b240 has started in 207.805 ms
+2025-09-17 13:58:05.729 +06:00 [DBG] Execution loop Worker:b072ea9e has started in 215.1569 ms
+2025-09-17 13:58:05.738 +06:00 [DBG] Execution loop Worker:df68b028 has started in 223.7811 ms
+2025-09-17 13:58:05.743 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-17 13:58:05.753 +06:00 [DBG] Execution loop Worker:e8695b58 has started in 238.4656 ms
+2025-09-17 13:58:05.783 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-17 13:58:05.824 +06:00 [DBG] Execution loop Worker:79c7281a has started in 310.1234 ms
+2025-09-17 13:58:05.839 +06:00 [DBG] Execution loop Worker:8268fe5f has started in 324.6522 ms
+2025-09-17 13:58:06.008 +06:00 [DBG] Execution loop DelayedJobScheduler:ba136038 has started in 169.6058 ms
+2025-09-17 13:58:06.010 +06:00 [INF] Server desktop-c1paikg:16760:bfb636d6 all the dispatchers started
+2025-09-17 13:58:06.014 +06:00 [DBG] Execution loop RecurringJobScheduler:1d818e34 has started in 6.7084 ms
+2025-09-17 13:58:35.814 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 13:58:54.394 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 13:59:05.862 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 13:59:35.880 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:00:05.893 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:00:35.905 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:01:05.917 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:01:35.941 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:02:05.949 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:02:35.965 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:03:05.856 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-17 14:03:05.897 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 14:03:05.977 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:03:35.985 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:04:06.010 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:04:36.022 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:05:06.039 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:05:36.062 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:06:06.078 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:06:36.100 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:07:06.134 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:07:36.151 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:08:06.003 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 14:08:06.162 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:08:36.200 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:09:06.213 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:09:36.236 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:10:06.255 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:10:36.284 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:11:06.292 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:11:36.305 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:12:06.314 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:12:36.327 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:13:06.089 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-17 14:13:06.342 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent
+2025-09-17 14:13:36.360 +06:00 [DBG] Server desktop-c1paikg:16760:bfb636d6 heartbeat successfully sent

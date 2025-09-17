@@ -26,6 +26,22 @@
     ]
   },
   {
+    "ContainingType": "UserManagementSystem.Api.Controllers.SendEmailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/SendEmail/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sendEmailCommand",
+        "Type": "UserManagementSystem.Application.Features.SendEmail.SendEmailCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UserManagementSystem.Api.Controllers.UsersController",
     "Method": "GetAllUsers",
     "RelativePath": "api/Users",

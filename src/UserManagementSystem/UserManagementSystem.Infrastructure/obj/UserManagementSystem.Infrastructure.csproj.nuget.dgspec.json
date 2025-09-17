@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj": {}
+    "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj": {
+    "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj",
+        "projectUniqueName": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj",
         "projectName": "UserManagementSystem.Domain",
-        "projectPath": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj",
+        "projectPath": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\Sumon\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\obj\\",
+        "outputPath": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj": {
+    "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj",
+        "projectUniqueName": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj",
         "projectName": "UserManagementSystem.Infrastructure",
-        "projectPath": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj",
+        "projectPath": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Sumon\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\obj\\",
+        "outputPath": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj": {
-                "projectPath": "D:\\.Net Alamin\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj"
+              "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj": {
+                "projectPath": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj"
               }
             }
           }
@@ -119,6 +119,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -134,6 +138,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.9, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
             }
           },
           "imports": [

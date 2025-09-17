@@ -12,6 +12,7 @@ namespace UserManagementSystem.Api
     {
         public static IServiceCollection AddDependency(this IServiceCollection services)
         {
+            services.AddScoped<ISendEmailRepository, SendEmailRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 

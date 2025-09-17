@@ -22,3 +22,14 @@ D:\.Net Alamin\CRUD User\User-Management-System\src\UserManagementSystem\UserMan
 D:\.Net Alamin\CRUD User\User-Management-System\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\refint\UserManagementSystem.Domain.dll
 D:\.Net Alamin\CRUD User\User-Management-System\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\UserManagementSystem.Domain.pdb
 D:\.Net Alamin\CRUD User\User-Management-System\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\ref\UserManagementSystem.Domain.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\bin\Debug\net9.0\UserManagementSystem.Domain.deps.json
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\bin\Debug\net9.0\UserManagementSystem.Domain.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\bin\Debug\net9.0\UserManagementSystem.Domain.pdb
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\UserManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\UserManagementSystem.Domain.AssemblyInfoInputs.cache
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\UserManagementSystem.Domain.AssemblyInfo.cs
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\UserManagementSystem.Domain.csproj.CoreCompileInputs.cache
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\UserManagementSystem.Domain.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\refint\UserManagementSystem.Domain.dll
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\UserManagementSystem.Domain.pdb
+D:\.Net Alamin\Prictise\src\UserManagementSystem\UserManagementSystem.Domain\obj\Debug\net9.0\ref\UserManagementSystem.Domain.dll

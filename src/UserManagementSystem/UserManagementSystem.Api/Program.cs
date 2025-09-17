@@ -2,6 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Reflection;
 using System.Text;
 using FluentValidation.AspNetCore;
+using Hangfire;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -73,6 +74,12 @@ try
     builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
     #endregion
 
+
+    // Hangfire
+    builder.Services.AddHangfire(config =>
+        config.UseSqlServerStorage(builder.Configuration.GetConnectionString("HangfireConnection")));
+    builder.Services.AddHangfireServer();
+
     // Register FluentValidation
     builder.Services.AddFluentValidation(fv =>
         fv.RegisterValidatorsFromAssemblyContaining<UserCreateValidator>());
@@ -101,6 +108,7 @@ try
     app.UseAuthorization();
 
     app.MapControllers();
+    app.UseHangfireDashboard("/hangfire");
 
     app.Run();
 }
