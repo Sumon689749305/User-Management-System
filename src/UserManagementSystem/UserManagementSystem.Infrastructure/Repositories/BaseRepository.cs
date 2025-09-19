@@ -45,19 +45,29 @@ namespace UserManagementSystem.Infrastructure.Repositories
         }
         public async Task CreateAsync(T entity)
         {
-            await _context.Set<T>().AddAsync(entity);
+            var name = entity.GetType().GetProperty("Name")?.GetValue(entity);
+            var userName = entity.GetType().GetProperty("UserName")?.GetValue(entity);
+            var password = entity.GetType().GetProperty("Password")?.GetValue(entity);
 
+            await _context.Database.ExecuteSqlRawAsync(
+               $"EXEC sp_Add{typeof(T).Name}s @p0, @p1, @p2",
+                  name, userName, password);
         }
-
-        public void UpdateUser(T entity)
+        public async Task UpdateUser(T entity)
         {
-            _context.Set<T>().Update(entity);
+            var name = entity.GetType().GetProperty("Name")?.GetValue(entity);
+            var userName = entity.GetType().GetProperty("UserName")?.GetValue(entity);
+            var password = entity.GetType().GetProperty("Password")?.GetValue(entity);
+            var id = entity.GetType().GetProperty("Id")?.GetValue(entity);
 
+             await _context.Database.ExecuteSqlRawAsync(
+                $"EXEC sp_Update{typeof(T).Name}s @Id = {{0}}, @Name = {{1}}, @UserName = {{2}}, @Password = {{3}}",
+                id, name, userName, password);
         }
         public async Task RemoveAsync(object id)
         {
-            var entity = await _context.Set<T>().FindAsync(id);
-            _context.Set<T>().Remove(entity);
+            await _context.Database.ExecuteSqlRawAsync(
+        $"EXEC sp_Delete{typeof(T).Name}s @Id = {{0}}", id);
         }
     }
 }

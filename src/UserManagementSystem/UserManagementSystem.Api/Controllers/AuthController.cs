@@ -20,6 +20,7 @@ namespace UserManagementSystem.Api.Controllers
         public async Task<string> Login([FromBody]LoginCommand loginCommand)
         {
             var token = await _mediator.Send(loginCommand);
+            _logger.LogInformation("User logged in successfully");
             return token;
         }
 

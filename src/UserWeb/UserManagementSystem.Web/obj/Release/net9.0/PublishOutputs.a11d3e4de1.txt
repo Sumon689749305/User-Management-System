@@ -1,0 +1,12 @@
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\UserManagementSystem.Web.exe
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\appsettings.json
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\UserManagementSystem.Web.dll
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\UserManagementSystem.Web.deps.json
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\UserManagementSystem.Web.runtimeconfig.json
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\UserManagementSystem.Web.pdb
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Release\net9.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll

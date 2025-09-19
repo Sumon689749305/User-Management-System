@@ -4936,11 +4936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj",
+      "projectUniqueName": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj",
       "projectName": "UserManagementSystem.Infrastructure",
-      "projectPath": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj",
+      "projectPath": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\UserManagementSystem.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Sumon\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\obj\\",
+      "outputPath": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4961,8 +4961,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj": {
-              "projectPath": "D:\\.Net Alamin\\Prictise\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj"
+            "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj": {
+              "projectPath": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj"
             }
           }
         }

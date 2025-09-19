@@ -1,0 +1,80 @@
+2025-09-19 10:12:42.129 +06:00 [INF] Application Starting......
+2025-09-19 10:12:44.091 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-19 10:12:44.615 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-19 10:12:45.103 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-19 10:12:45.103 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-19 10:12:45.103 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-19 10:12:45.123 +06:00 [DBG] Execution loop BackgroundServerProcess:717ada24 has started in 12.6549 ms
+2025-09-19 10:12:45.286 +06:00 [INF] Server desktop-c1paikg:17136:01a5905b successfully announced in 160.0699 ms
+2025-09-19 10:12:45.292 +06:00 [DBG] Execution loop ServerHeartbeatProcess:638aa1b0 has started in 4.8355 ms
+2025-09-19 10:12:45.292 +06:00 [INF] Server desktop-c1paikg:17136:01a5905b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-19 10:12:45.328 +06:00 [DBG] Execution loop ServerWatchdog:5dc421dc has started in 3.8124 ms
+2025-09-19 10:12:45.328 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:4b4ce165 has started in 34.8661 ms
+2025-09-19 10:12:45.332 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:10203051 has started in 3.884 ms
+2025-09-19 10:12:45.335 +06:00 [DBG] Execution loop ExpirationManager:2a178863 has started in 7.1567 ms
+2025-09-19 10:12:45.338 +06:00 [DBG] Execution loop CountersAggregator:d0911d69 has started in 6.37 ms
+2025-09-19 10:12:45.341 +06:00 [DBG] Execution loop Worker:0b91f254 has started in 5.8492 ms
+2025-09-19 10:12:45.345 +06:00 [DBG] Execution loop Worker:74ab6877 has started in 9.3402 ms
+2025-09-19 10:12:45.346 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-19 10:12:45.351 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-19 10:12:45.392 +06:00 [DBG] Execution loop Worker:737c274e has started in 56.9918 ms
+2025-09-19 10:12:45.393 +06:00 [DBG] Execution loop Worker:9980d9a4 has started in 15.2359 ms
+2025-09-19 10:12:45.399 +06:00 [DBG] Execution loop Worker:5521b9b8 has started in 63.9353 ms
+2025-09-19 10:12:45.412 +06:00 [DBG] Execution loop Worker:661ddc3c has started in 74.7313 ms
+2025-09-19 10:12:45.464 +06:00 [DBG] Execution loop Worker:f3149d34 has started in 128.2192 ms
+2025-09-19 10:12:45.531 +06:00 [DBG] Execution loop Worker:9813694b has started in 195.5064 ms
+2025-09-19 10:12:45.535 +06:00 [INF] 2 servers were removed due to timeout
+2025-09-19 10:12:45.540 +06:00 [DBG] Execution loop Worker:04d06330 has started in 204.7243 ms
+2025-09-19 10:12:45.545 +06:00 [DBG] Execution loop Worker:997755dd has started in 209.77 ms
+2025-09-19 10:12:45.560 +06:00 [DBG] Execution loop Worker:b4867bdc has started in 224.4342 ms
+2025-09-19 10:12:45.568 +06:00 [DBG] Execution loop Worker:41f72d8e has started in 232.9263 ms
+2025-09-19 10:12:45.573 +06:00 [DBG] Execution loop Worker:9482f5c4 has started in 237.8475 ms
+2025-09-19 10:12:45.579 +06:00 [DBG] Execution loop Worker:a5e1eab6 has started in 243.2134 ms
+2025-09-19 10:12:45.579 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-19 10:12:45.585 +06:00 [DBG] Execution loop Worker:e89e069f has started in 249.0374 ms
+2025-09-19 10:12:45.592 +06:00 [DBG] Execution loop Worker:3fc624eb has started in 256.0348 ms
+2025-09-19 10:12:45.627 +06:00 [DBG] Execution loop Worker:161ee024 has started in 291.4342 ms
+2025-09-19 10:12:45.629 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-19 10:12:45.647 +06:00 [DBG] Execution loop Worker:0b860bb7 has started in 311.6139 ms
+2025-09-19 10:12:45.648 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-19 10:12:45.657 +06:00 [DBG] Execution loop Worker:10ad6e70 has started in 321.4216 ms
+2025-09-19 10:12:45.688 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-19 10:12:45.688 +06:00 [DBG] Execution loop Worker:82e5c313 has started in 352.654 ms
+2025-09-19 10:12:45.719 +06:00 [DBG] Execution loop RecurringJobScheduler:2227ef37 has started in 30.4356 ms
+2025-09-19 10:12:45.719 +06:00 [DBG] Execution loop DelayedJobScheduler:7cc772f9 has started in 61.9704 ms
+2025-09-19 10:12:45.720 +06:00 [INF] Server desktop-c1paikg:17136:01a5905b all the dispatchers started
+2025-09-19 10:13:15.563 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:13:45.599 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:13:58.430 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-19 10:13:59.299 +06:00 [INF] User added successfully
+2025-09-19 10:14:15.643 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:14:45.668 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:15:06.243 +06:00 [INF] User logged in successfully
+2025-09-19 10:15:11.406 +06:00 [INF] Users fetched successfully
+2025-09-19 10:15:15.726 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:15:20.726 +06:00 [INF] User fetched successfully
+2025-09-19 10:15:22.126 +06:00 [INF] User deleted successfully
+2025-09-19 10:15:22.141 +06:00 [INF] Users fetched successfully
+2025-09-19 10:15:41.702 +06:00 [INF] User fetched successfully
+2025-09-19 10:15:45.745 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:15:47.201 +06:00 [INF] User updated successfully
+2025-09-19 10:15:47.220 +06:00 [INF] Users fetched successfully
+2025-09-19 10:15:47.223 +06:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_UpdateUsers @Id = @p0, @Name = @p1, @UserName = @p2, @Password = @p3
+2025-09-19 10:16:15.769 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:16:45.793 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:17:08.643 +06:00 [INF] User logged in successfully
+2025-09-19 10:17:15.826 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:17:20.633 +06:00 [INF] User logged in successfully
+2025-09-19 10:17:21.874 +06:00 [INF] Users fetched successfully
+2025-09-19 10:17:24.047 +06:00 [INF] User fetched successfully
+2025-09-19 10:17:30.817 +06:00 [INF] User updated successfully
+2025-09-19 10:17:30.838 +06:00 [INF] Users fetched successfully
+2025-09-19 10:17:30.925 +06:00 [ERR] Failed executing DbCommand (108ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_UpdateUsers @Id = @p0, @Name = @p1, @UserName = @p2, @Password = @p3
+2025-09-19 10:17:45.855 +06:00 [DBG] Server desktop-c1paikg:17136:01a5905b heartbeat successfully sent
+2025-09-19 10:17:45.866 +06:00 [DBG] Aggregating records in 'Counter' table...

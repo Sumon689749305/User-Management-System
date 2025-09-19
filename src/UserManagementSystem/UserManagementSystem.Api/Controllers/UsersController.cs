@@ -28,7 +28,9 @@ namespace UserManagementSystem.Api.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllUsers()
         {
-            return Ok(await _mediator.Send(new GetUserQuery()));
+            var users = await _mediator.Send(new GetUserQuery());
+            _logger.LogInformation("Users fetched successfully");
+            return Ok(users);
         }
 
         [HttpPost]
@@ -39,6 +41,7 @@ namespace UserManagementSystem.Api.Controllers
                 try
                 {
                     await _mediator.Send(userAddCommand);
+                    _logger.LogInformation("User added successfully");
                     return Ok(new { Message = "User created successfully" });
                 }
                 catch (Exception ex)
@@ -55,7 +58,9 @@ namespace UserManagementSystem.Api.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetUserById(int id)
         {   
-            return Ok( await _mediator.Send(new GetUserById(id)));
+            var user = await _mediator.Send(new GetUserById(id));
+            _logger.LogInformation("User fetched successfully");
+            return Ok(user);
  
         }
         [HttpPost("id")]
@@ -64,7 +69,7 @@ namespace UserManagementSystem.Api.Controllers
         {
             userUpdateCommand.Id = id;
             await _mediator.Send(userUpdateCommand);
-
+            _logger.LogInformation("User updated successfully");
             return Ok(new { Message = "User updated successfully" });
         }
 
@@ -74,6 +79,7 @@ namespace UserManagementSystem.Api.Controllers
         {
             
             await _mediator.Send(new UserDeleteCommand(id));
+            _logger.LogInformation("User deleted successfully");
             return Ok(new { Message = "User Delete successfully" });
         }
     }

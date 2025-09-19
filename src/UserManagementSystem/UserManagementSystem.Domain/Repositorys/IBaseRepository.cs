@@ -13,7 +13,7 @@ namespace UserManagementSystem.Domain.Repositorys
         Task<IList<T>> GetAllAsync();
         Task CreateAsync(T model);
         Task<T?> GetByIdAsync(object id);
-        void UpdateUser(T model);
+        Task UpdateUser(T model);
         Task RemoveAsync(object id);
     }
 }
