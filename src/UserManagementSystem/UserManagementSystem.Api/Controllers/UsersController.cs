@@ -1,4 +1,6 @@
-﻿using AutoMapper;
+﻿using System.Data;
+using System.Web;
+using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -8,7 +10,7 @@ using UserManagementSystem.Application.Features.Users.Queries;
 
 namespace UserManagementSystem.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -81,6 +83,39 @@ namespace UserManagementSystem.Api.Controllers
             await _mediator.Send(new UserDeleteCommand(id));
             _logger.LogInformation("User deleted successfully");
             return Ok(new { Message = "User Delete successfully" });
+        }
+
+
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetUsersData([FromBody] GetUserAndSearchQuery model)
+        {
+            try
+            {
+                var (data, total, totalDisplay) = await _mediator.Send(model);
+
+                var users = new
+                {
+                    recordsTotal = total,
+                    recordsFiltered = totalDisplay,
+                    data = (from record in data
+                            select new string[]
+                            {    
+                                HttpUtility.HtmlEncode(record.Name),
+                                HttpUtility.HtmlEncode(record.UserName),
+                                record.Id.ToString()
+                            }).ToArray()
+                };
+
+                return new JsonResult(users);
+
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "There was a problem in getting customers");
+                return base.BadRequest(ex);
+            }
         }
     }
 }

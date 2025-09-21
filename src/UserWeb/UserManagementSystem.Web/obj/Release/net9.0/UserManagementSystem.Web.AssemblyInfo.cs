@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserManagementSystem.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc4d945eb32be64cae5a276639b637af6faaf575")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c68cba1117f3d87034c0450cad7376630a7e6c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserManagementSystem.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserManagementSystem.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

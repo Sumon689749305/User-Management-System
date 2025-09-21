@@ -26,7 +26,7 @@ namespace UserManagementSystem.Web.Pages
             var client = _clientFactory.CreateClient("API");
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await client.GetAsync($"api/Users/id?id={id}");
+            var response = await client.GetAsync($"api/Users/GetUserById/id?id={id}");
             if (response.IsSuccessStatusCode)
             {
                 var json = await response.Content.ReadAsStringAsync();
@@ -35,7 +35,7 @@ namespace UserManagementSystem.Web.Pages
             }
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(int id)
         {
             var client = _clientFactory.CreateClient("API");
 
@@ -44,7 +44,7 @@ namespace UserManagementSystem.Web.Pages
 
             var content = new StringContent(JsonSerializer.Serialize(User), Encoding.UTF8, "application/json");
 
-            var response = await client.PostAsync($"api/Users/id?id={User.Id}", content);
+            var response = await client.PostAsync($"api/Users/UpdateUser/id?id={id}", content);
 
             if (response.IsSuccessStatusCode)
             {

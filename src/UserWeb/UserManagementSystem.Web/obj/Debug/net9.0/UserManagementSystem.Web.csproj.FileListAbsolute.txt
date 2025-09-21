@@ -417,3 +417,5 @@ D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSys
 D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Debug\net9.0\UserManagementSystem.Web.pdb
 D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Debug\net9.0\UserManagementSystem.Web.genruntimeconfig.cache
 D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\obj\Debug\net9.0\ref\UserManagementSystem.Web.dll
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\bin\Debug\net9.0\MediatR.dll
+D:\.NetProjectJob\CRUD User\User-Management-System\src\UserWeb\UserManagementSystem.Web\bin\Debug\net9.0\MediatR.Contracts.dll

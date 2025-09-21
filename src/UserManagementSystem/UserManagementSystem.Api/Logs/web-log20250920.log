@@ -1,0 +1,1936 @@
+2025-09-20 10:39:05.165 +06:00 [INF] Application Starting......
+2025-09-20 10:39:07.042 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 10:39:07.568 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 10:39:07.942 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 10:39:07.942 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 10:39:07.942 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 10:39:07.951 +06:00 [DBG] Execution loop BackgroundServerProcess:72e0e673 has started in 4.9847 ms
+2025-09-20 10:39:08.090 +06:00 [INF] Server desktop-c1paikg:8404:ee284580 successfully announced in 131.7134 ms
+2025-09-20 10:39:08.095 +06:00 [DBG] Execution loop ServerHeartbeatProcess:1f4af937 has started in 4.2947 ms
+2025-09-20 10:39:08.095 +06:00 [INF] Server desktop-c1paikg:8404:ee284580 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 10:39:08.098 +06:00 [DBG] Execution loop ServerWatchdog:13ea0db5 has started in 2.7988 ms
+2025-09-20 10:39:08.135 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:a80fce5b has started in 39.6118 ms
+2025-09-20 10:39:08.135 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:6b87de38 has started in 37.2478 ms
+2025-09-20 10:39:08.141 +06:00 [DBG] Execution loop ExpirationManager:1545ddbf has started in 5.7707 ms
+2025-09-20 10:39:08.144 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 10:39:08.152 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-20 10:39:08.153 +06:00 [DBG] Execution loop CountersAggregator:9df0f2e7 has started in 16.0421 ms
+2025-09-20 10:39:08.153 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 10:39:08.162 +06:00 [DBG] Execution loop Worker:32abcc2d has started in 14.4153 ms
+2025-09-20 10:39:08.162 +06:00 [DBG] Execution loop Worker:e36a8e42 has started in 17.9219 ms
+2025-09-20 10:39:08.197 +06:00 [DBG] Execution loop Worker:c7b38d62 has started in 52.1146 ms
+2025-09-20 10:39:08.226 +06:00 [DBG] Execution loop Worker:7b6bba87 has started in 81.6312 ms
+2025-09-20 10:39:08.229 +06:00 [DBG] Execution loop Worker:c4d7806c has started in 85.0652 ms
+2025-09-20 10:39:08.232 +06:00 [DBG] Execution loop Worker:c4ff0262 has started in 87.6995 ms
+2025-09-20 10:39:08.301 +06:00 [DBG] Execution loop Worker:71978cd4 has started in 157.3818 ms
+2025-09-20 10:39:08.306 +06:00 [DBG] Execution loop Worker:a11a6c1a has started in 162.4775 ms
+2025-09-20 10:39:08.314 +06:00 [DBG] Execution loop Worker:d8c56811 has started in 170.4789 ms
+2025-09-20 10:39:08.319 +06:00 [DBG] Execution loop Worker:3a8d121a has started in 174.9988 ms
+2025-09-20 10:39:08.351 +06:00 [DBG] Execution loop Worker:f211aa09 has started in 206.9762 ms
+2025-09-20 10:39:08.351 +06:00 [DBG] Execution loop Worker:e8698e47 has started in 206.9764 ms
+2025-09-20 10:39:08.355 +06:00 [DBG] Execution loop Worker:49581a47 has started in 211.1184 ms
+2025-09-20 10:39:08.359 +06:00 [DBG] Execution loop Worker:187ca690 has started in 214.8722 ms
+2025-09-20 10:39:08.398 +06:00 [DBG] Execution loop Worker:6c6fb21e has started in 254.2279 ms
+2025-09-20 10:39:08.398 +06:00 [DBG] Execution loop Worker:36789164 has started in 254.2092 ms
+2025-09-20 10:39:08.402 +06:00 [DBG] Execution loop Worker:ed4d392c has started in 257.6062 ms
+2025-09-20 10:39:08.428 +06:00 [DBG] Execution loop Worker:904fcb11 has started in 283.9355 ms
+2025-09-20 10:39:08.428 +06:00 [DBG] Execution loop Worker:428939af has started in 283.9355 ms
+2025-09-20 10:39:08.431 +06:00 [DBG] Execution loop Worker:cde3318f has started in 287.1507 ms
+2025-09-20 10:39:08.459 +06:00 [INF] Server desktop-c1paikg:8404:ee284580 all the dispatchers started
+2025-09-20 10:39:08.459 +06:00 [DBG] Execution loop DelayedJobScheduler:a35580ca has started in 31.0292 ms
+2025-09-20 10:39:08.459 +06:00 [DBG] Execution loop RecurringJobScheduler:086c75b6 has started in 28.2636 ms
+2025-09-20 10:39:08.625 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 10:39:08.654 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 10:39:08.663 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 10:39:08.689 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 10:39:38.301 +06:00 [DBG] Server desktop-c1paikg:8404:ee284580 heartbeat successfully sent
+2025-09-20 10:40:07.920 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 10:40:08.330 +06:00 [DBG] Server desktop-c1paikg:8404:ee284580 heartbeat successfully sent
+2025-09-20 11:17:15.793 +06:00 [INF] Application Starting......
+2025-09-20 11:17:17.417 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 11:17:17.962 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 11:17:18.253 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 11:17:18.253 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 11:17:18.254 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 11:17:18.269 +06:00 [DBG] Execution loop BackgroundServerProcess:291d8704 has started in 8.7453 ms
+2025-09-20 11:17:18.407 +06:00 [INF] Server desktop-c1paikg:5396:79564678 successfully announced in 133.1106 ms
+2025-09-20 11:17:18.412 +06:00 [DBG] Execution loop ServerHeartbeatProcess:f49d7539 has started in 4.4988 ms
+2025-09-20 11:17:18.413 +06:00 [INF] Server desktop-c1paikg:5396:79564678 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 11:17:18.439 +06:00 [DBG] Execution loop ServerWatchdog:410726f9 has started in 26.7433 ms
+2025-09-20 11:17:18.445 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:9fa0190a has started in 31.5698 ms
+2025-09-20 11:17:18.450 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:654f0bec has started in 9.2576 ms
+2025-09-20 11:17:18.453 +06:00 [DBG] Execution loop ExpirationManager:57a2c944 has started in 8.4424 ms
+2025-09-20 11:17:18.461 +06:00 [DBG] Execution loop Worker:434c39c8 has started in 7.3078 ms
+2025-09-20 11:17:18.468 +06:00 [DBG] Execution loop Worker:5fb025d5 has started in 13.7952 ms
+2025-09-20 11:17:18.468 +06:00 [DBG] Execution loop Worker:7f158f24 has started in 13.9749 ms
+2025-09-20 11:17:18.468 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 11:17:18.469 +06:00 [DBG] Execution loop CountersAggregator:11054dc9 has started in 7.1492 ms
+2025-09-20 11:17:18.470 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:17:18.474 +06:00 [DBG] Execution loop Worker:a9ccb3ca has started in 20.3122 ms
+2025-09-20 11:17:18.481 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-20 11:17:18.483 +06:00 [DBG] Execution loop Worker:7fbf51a8 has started in 27.6225 ms
+2025-09-20 11:17:18.520 +06:00 [DBG] Execution loop Worker:66555dcf has started in 66.7685 ms
+2025-09-20 11:17:18.521 +06:00 [DBG] Execution loop Worker:80c5f717 has started in 66.875 ms
+2025-09-20 11:17:18.521 +06:00 [DBG] Execution loop Worker:390f47b9 has started in 67.021 ms
+2025-09-20 11:17:18.521 +06:00 [DBG] Execution loop Worker:64a1b797 has started in 67.0487 ms
+2025-09-20 11:17:18.521 +06:00 [DBG] Execution loop Worker:c9f3ca5e has started in 67.0704 ms
+2025-09-20 11:17:18.521 +06:00 [DBG] Execution loop Worker:72382279 has started in 67.2646 ms
+2025-09-20 11:17:18.521 +06:00 [DBG] Execution loop Worker:cb2eac48 has started in 67.0778 ms
+2025-09-20 11:17:18.536 +06:00 [DBG] Execution loop Worker:6b13f502 has started in 82.0514 ms
+2025-09-20 11:17:18.551 +06:00 [DBG] Execution loop Worker:2dc3f85f has started in 96.75 ms
+2025-09-20 11:17:18.562 +06:00 [DBG] Execution loop Worker:4f2d1917 has started in 107.8109 ms
+2025-09-20 11:17:18.573 +06:00 [DBG] Execution loop Worker:6e15dce0 has started in 119.558 ms
+2025-09-20 11:17:18.583 +06:00 [DBG] Execution loop Worker:ef03cb79 has started in 128.954 ms
+2025-09-20 11:17:18.591 +06:00 [DBG] Execution loop Worker:ee56a09a has started in 136.7394 ms
+2025-09-20 11:17:18.596 +06:00 [DBG] Execution loop Worker:29aaa147 has started in 142.6119 ms
+2025-09-20 11:17:18.599 +06:00 [DBG] Execution loop Worker:a5da7414 has started in 145.1492 ms
+2025-09-20 11:17:18.604 +06:00 [DBG] Execution loop DelayedJobScheduler:bb16e6f4 has started in 8.6455 ms
+2025-09-20 11:17:18.604 +06:00 [INF] Server desktop-c1paikg:5396:79564678 all the dispatchers started
+2025-09-20 11:17:18.642 +06:00 [DBG] Execution loop RecurringJobScheduler:b83cb44e has started in 42.658 ms
+2025-09-20 11:17:18.744 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 11:17:18.947 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 11:17:18.977 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 11:17:18.994 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 11:17:30.745 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 11:17:31.918 +06:00 [INF] User logged in successfully
+2025-09-20 11:17:48.597 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:18:18.619 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:18:48.641 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:19:18.658 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:19:48.675 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:20:18.690 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:20:48.707 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:21:18.730 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:21:48.741 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:22:18.752 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:22:18.795 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:22:48.780 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:23:18.805 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:23:48.831 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:24:18.856 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:24:48.870 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:25:18.896 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:25:48.924 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:26:18.940 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:26:48.951 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:27:18.906 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:27:18.972 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:27:48.977 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:28:18.981 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:28:49.006 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:29:19.025 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:29:49.039 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:30:19.063 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:30:49.104 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:31:19.130 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:31:49.141 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:32:19.022 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:32:19.166 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:32:49.195 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:33:19.222 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:33:49.249 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:34:19.269 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:34:49.301 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:35:19.333 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:35:43.099 +06:00 [INF] User logged in successfully
+2025-09-20 11:35:49.393 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:36:19.404 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:36:49.415 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:37:19.179 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:37:19.436 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:37:49.447 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:38:19.459 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:38:49.473 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:39:19.504 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:39:49.520 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:40:19.538 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:40:49.548 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:41:19.570 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:41:49.590 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:42:19.269 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:42:19.613 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:42:49.636 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:43:19.661 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:43:49.677 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:44:19.695 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:44:49.720 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:45:19.740 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:45:49.781 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:46:19.804 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:46:49.828 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:47:19.442 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:47:19.567 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 11:47:19.575 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 11:47:19.593 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 11:47:19.600 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 11:47:19.605 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 11:47:19.844 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:47:49.868 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:48:19.885 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:48:49.902 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:49:19.924 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:49:49.941 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:50:19.965 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:50:49.983 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:51:20.003 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:51:50.019 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:52:19.584 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:52:20.053 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:52:50.070 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:53:20.101 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:53:50.122 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:54:20.138 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:54:50.154 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:55:20.173 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:55:50.194 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:56:20.212 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:56:50.234 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:57:19.699 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 11:57:20.244 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:57:50.258 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:58:20.269 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:58:50.294 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:59:20.316 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 11:59:50.338 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:00:20.351 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:00:50.372 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:01:20.388 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:01:50.399 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:02:19.811 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:02:20.414 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:02:50.424 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:03:20.441 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:03:50.454 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:04:20.481 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:04:50.503 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:05:20.524 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:05:50.545 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:06:20.562 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:06:50.580 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:07:19.921 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:07:20.597 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:07:50.610 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:08:20.628 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:08:50.652 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:09:20.661 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:09:50.676 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:10:20.686 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:10:50.710 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:11:20.742 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:11:50.772 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:12:20.014 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:12:20.792 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:12:50.810 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:13:20.836 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:13:50.845 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:14:20.868 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:14:50.886 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:15:20.913 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:15:50.938 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:16:20.948 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:16:50.969 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:17:20.124 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 12:17:20.132 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 12:17:20.138 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 12:17:20.139 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:17:20.140 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 12:17:20.142 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 12:17:20.982 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:17:50.996 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:18:21.019 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:18:51.043 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:19:21.058 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:19:51.082 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:20:21.096 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:20:51.125 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:21:21.147 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:21:51.187 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:22:20.258 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:22:21.209 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:22:51.234 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:23:21.246 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:23:51.271 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:24:21.296 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:24:51.313 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:25:21.328 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:25:51.348 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:26:21.372 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:26:51.392 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:27:20.382 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:27:21.425 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:27:51.433 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:28:21.461 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:28:51.478 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:29:21.503 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:29:51.518 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:30:21.546 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:30:51.575 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:31:21.598 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:31:51.623 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:32:20.492 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:32:21.632 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:32:51.652 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:33:21.683 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:33:51.714 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:34:21.734 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:34:51.753 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:35:21.780 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:35:51.796 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:36:21.823 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:36:51.844 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:37:20.622 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:37:21.868 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:37:51.892 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:38:21.915 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:38:51.929 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:39:21.948 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:39:51.961 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:40:21.985 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:40:52.000 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:41:22.022 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:41:52.053 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:42:20.742 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:42:22.073 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:42:52.096 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:43:22.123 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:43:52.152 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:44:22.169 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:44:52.186 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:45:22.206 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:45:52.224 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:46:22.230 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:46:52.241 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:47:20.679 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 12:47:20.690 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 12:47:20.709 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 12:47:20.714 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 12:47:20.717 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 12:47:20.866 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:47:22.263 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:47:52.282 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:48:22.307 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:48:52.330 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:49:22.344 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:49:52.352 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:50:22.360 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:50:52.380 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:51:22.401 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:51:52.426 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:52:20.979 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:52:22.460 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:52:52.479 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:53:22.495 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:53:52.510 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:54:22.527 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:54:52.555 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:55:22.586 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:55:52.611 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:56:22.633 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:56:52.647 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:57:21.114 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 12:57:22.666 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:57:52.685 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:58:22.694 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:58:52.713 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:59:22.733 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 12:59:52.751 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:00:22.776 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:00:52.803 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:01:22.822 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:01:52.844 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:02:21.240 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:02:22.860 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:02:52.881 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:03:22.904 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:03:52.921 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:04:22.944 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:04:52.964 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:05:22.981 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:05:53.012 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:06:23.032 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:06:53.051 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:07:21.366 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:07:23.064 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:07:53.082 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:08:23.106 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:08:53.125 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:09:23.151 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:09:53.166 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:10:23.185 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:10:53.203 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:11:23.223 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:11:53.247 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:12:21.452 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:12:23.272 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:12:53.288 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:13:23.314 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:13:53.337 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:14:23.359 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:14:53.377 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:15:23.398 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:15:53.413 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:16:23.427 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:16:53.440 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:17:21.244 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 13:17:21.253 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 13:17:21.274 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 13:17:21.282 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 13:17:21.288 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 13:17:21.554 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:17:23.459 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:17:53.488 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:18:23.519 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:18:53.551 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:19:23.567 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:19:53.592 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:20:23.608 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:20:53.632 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:21:23.650 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:21:53.661 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:22:21.683 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:22:23.683 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:22:53.695 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:23:23.711 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:23:53.727 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:24:23.741 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:24:53.763 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:25:23.792 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:25:53.802 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:26:23.812 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:26:53.825 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:27:21.771 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:27:23.852 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:27:53.877 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:28:23.895 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:28:53.918 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:29:23.939 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:29:53.969 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:30:23.983 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:30:54.007 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:31:24.022 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:31:54.057 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:32:21.905 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:32:24.079 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:32:54.099 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:33:24.116 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:33:54.133 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:34:24.158 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:34:54.177 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:35:24.186 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:35:54.198 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:36:24.211 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:36:54.229 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:37:21.988 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:37:24.253 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:37:54.267 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:38:22.570 +06:00 [INF] User logged in successfully
+2025-09-20 13:38:24.352 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:38:54.384 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:39:24.408 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:39:54.422 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:40:24.435 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:40:54.451 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:41:24.476 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:41:54.505 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:42:22.009 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:42:24.512 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:42:54.530 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:43:24.538 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:43:55.224 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:44:25.244 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:44:55.267 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:45:25.283 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:45:55.306 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:46:25.319 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:46:56.893 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:47:21.345 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 13:47:21.350 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 13:47:21.355 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 13:47:21.357 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 13:47:21.359 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 13:47:22.060 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:47:26.939 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:47:56.953 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:48:26.965 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:48:56.992 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:49:27.013 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:49:57.028 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:50:27.044 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:50:57.055 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:51:27.080 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:51:57.096 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:52:22.130 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:52:27.112 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:52:57.118 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:53:27.139 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:53:57.169 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:54:27.188 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:54:57.256 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:55:27.270 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:55:57.285 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:56:27.313 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:56:57.342 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:57:22.298 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 13:57:27.362 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:57:57.388 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:58:27.400 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:58:57.422 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:59:27.437 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 13:59:57.454 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:00:27.478 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:00:57.506 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:01:27.524 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:01:57.541 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:02:22.404 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:02:27.554 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:02:57.565 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:03:27.581 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:03:57.592 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:04:27.607 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:04:57.635 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:05:27.654 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:05:57.669 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:06:27.683 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:06:57.706 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:07:22.509 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:07:27.720 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:07:57.737 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:08:27.764 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:08:57.786 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:09:27.805 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:09:57.813 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:10:27.821 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:10:57.844 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:11:27.866 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:11:57.883 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:12:22.607 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:12:27.902 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:12:57.916 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:13:27.938 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:13:57.959 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:14:27.967 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:14:57.993 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:15:28.014 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:15:58.036 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:16:28.060 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:16:58.092 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:17:21.842 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 14:17:21.846 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 14:17:21.854 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 14:17:21.858 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 14:17:21.860 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 14:17:22.713 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:17:28.114 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:17:58.135 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:18:28.166 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:18:58.189 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:19:28.208 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:19:58.233 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:20:28.250 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:20:58.267 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:21:28.288 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:21:58.299 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:22:22.843 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:22:28.322 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:22:58.347 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:23:28.374 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:23:58.385 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:24:28.406 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:24:58.424 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:25:28.445 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:25:41.829 +06:00 [INF] User logged in successfully
+2025-09-20 14:25:58.459 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:26:28.473 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:26:58.487 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:27:22.907 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:27:28.519 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:27:58.530 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:28:28.532 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:28:58.554 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:29:28.570 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:29:58.587 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:30:28.603 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:30:58.619 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:31:28.637 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:31:58.663 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:32:22.967 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:32:28.669 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:32:58.690 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:33:29.462 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:33:59.480 +06:00 [DBG] Server desktop-c1paikg:5396:79564678 heartbeat successfully sent
+2025-09-20 14:36:56.852 +06:00 [INF] Application Starting......
+2025-09-20 14:36:59.856 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 14:37:00.830 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 14:37:01.392 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 14:37:01.393 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 14:37:01.393 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 14:37:01.421 +06:00 [DBG] Execution loop BackgroundServerProcess:313badd1 has started in 20.678 ms
+2025-09-20 14:37:01.661 +06:00 [INF] Server desktop-c1paikg:11068:ee7a53cb successfully announced in 237.3172 ms
+2025-09-20 14:37:01.669 +06:00 [DBG] Execution loop ServerHeartbeatProcess:e0aeac8c has started in 7.1244 ms
+2025-09-20 14:37:01.670 +06:00 [INF] Server desktop-c1paikg:11068:ee7a53cb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 14:37:01.677 +06:00 [DBG] Execution loop ServerWatchdog:ead9d3da has started in 6.7962 ms
+2025-09-20 14:37:01.681 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:490f4d50 has started in 4.4247 ms
+2025-09-20 14:37:01.687 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:d1fb63ba has started in 9.6428 ms
+2025-09-20 14:37:01.691 +06:00 [DBG] Execution loop ExpirationManager:00532943 has started in 4.3284 ms
+2025-09-20 14:37:01.700 +06:00 [DBG] Execution loop CountersAggregator:c6478055 has started in 8.3687 ms
+2025-09-20 14:37:01.700 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 14:37:01.700 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:37:01.714 +06:00 [DBG] Execution loop Worker:f8c4f089 has started in 14.7991 ms
+2025-09-20 14:37:01.721 +06:00 [DBG] Execution loop Worker:b62eec14 has started in 21.6829 ms
+2025-09-20 14:37:01.758 +06:00 [DBG] Execution loop Worker:d28e2f64 has started in 58.4949 ms
+2025-09-20 14:37:01.763 +06:00 [DBG] Execution loop Worker:c69c8e7e has started in 63.3822 ms
+2025-09-20 14:37:01.767 +06:00 [DBG] Execution loop Worker:3832a17b has started in 67.9805 ms
+2025-09-20 14:37:01.773 +06:00 [DBG] Execution loop Worker:5ac45aa7 has started in 73.4184 ms
+2025-09-20 14:37:01.777 +06:00 [DBG] Execution loop Worker:1f5dcdef has started in 78.2636 ms
+2025-09-20 14:37:01.782 +06:00 [DBG] Execution loop Worker:cd67a2c9 has started in 83.0125 ms
+2025-09-20 14:37:01.787 +06:00 [DBG] Execution loop Worker:dfdd6aed has started in 87.297 ms
+2025-09-20 14:37:01.790 +06:00 [DBG] Execution loop Worker:30e38645 has started in 90.648 ms
+2025-09-20 14:37:01.818 +06:00 [DBG] Execution loop Worker:d618fcab has started in 119.2436 ms
+2025-09-20 14:37:01.818 +06:00 [DBG] Execution loop Worker:cec3c2f0 has started in 119.2437 ms
+2025-09-20 14:37:01.825 +06:00 [DBG] Execution loop Worker:001ae454 has started in 125.3432 ms
+2025-09-20 14:37:01.829 +06:00 [DBG] Execution loop Worker:2f5c6e57 has started in 130.2136 ms
+2025-09-20 14:37:01.836 +06:00 [DBG] Execution loop Worker:ae32d456 has started in 137.0311 ms
+2025-09-20 14:37:01.840 +06:00 [DBG] Execution loop Worker:9e8742bf has started in 141.184 ms
+2025-09-20 14:37:01.881 +06:00 [DBG] Execution loop Worker:bf32b3e4 has started in 181.3542 ms
+2025-09-20 14:37:01.881 +06:00 [DBG] Execution loop Worker:db2036d5 has started in 181.3599 ms
+2025-09-20 14:37:01.887 +06:00 [DBG] Execution loop Worker:b09275b5 has started in 188.2408 ms
+2025-09-20 14:37:01.892 +06:00 [DBG] Execution loop Worker:867241d1 has started in 192.4235 ms
+2025-09-20 14:37:01.896 +06:00 [DBG] Execution loop DelayedJobScheduler:deb24896 has started in 4.6637 ms
+2025-09-20 14:37:01.896 +06:00 [INF] Server desktop-c1paikg:11068:ee7a53cb all the dispatchers started
+2025-09-20 14:37:01.901 +06:00 [DBG] Execution loop RecurringJobScheduler:b47396c0 has started in 8.8484 ms
+2025-09-20 14:37:02.405 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 14:37:02.479 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 14:37:02.490 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 14:37:02.509 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 14:37:23.872 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 14:37:25.161 +06:00 [INF] User logged in successfully
+2025-09-20 14:37:31.961 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:38:01.974 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:38:31.998 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:39:02.017 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:39:32.041 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:40:02.076 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:40:32.103 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:41:02.155 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:41:32.179 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:42:02.201 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:42:02.343 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-20 14:42:02.609 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:42:32.214 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:43:02.245 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:43:32.262 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:44:02.273 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:44:32.291 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:45:02.322 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:45:32.334 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:46:02.362 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:46:32.392 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:47:02.464 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:47:02.706 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:47:32.491 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:48:02.498 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:48:41.096 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:48:41.119 +06:00 [INF] User logged in successfully
+2025-09-20 14:49:11.104 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:49:41.124 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:50:11.147 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:50:41.155 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:51:11.184 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:51:41.201 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:52:02.930 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:52:11.235 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:52:41.252 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:53:11.288 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:53:41.317 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:54:11.334 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:54:41.357 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:55:11.398 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:55:41.429 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:56:11.460 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:56:41.482 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:57:03.051 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 14:57:11.522 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:57:41.555 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:58:11.576 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:58:41.603 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:59:11.641 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 14:59:41.653 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:00:11.674 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:00:41.698 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:01:11.725 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:01:41.757 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:02:03.154 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:02:11.785 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:02:41.818 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:03:11.858 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:03:41.892 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:04:11.933 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:04:41.947 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:05:11.962 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:05:42.025 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:06:12.054 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:06:42.088 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:07:02.695 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 15:07:02.701 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 15:07:02.706 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 15:07:02.708 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 15:07:02.711 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 15:07:03.260 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:07:12.119 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:07:42.136 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:08:12.152 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:08:42.172 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:09:12.187 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:09:43.050 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:10:13.074 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:10:43.098 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:11:13.114 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:11:43.133 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:12:03.396 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:12:13.154 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:12:43.183 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:13:13.198 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:13:43.215 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:14:13.246 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:14:43.262 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:15:13.282 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:15:43.295 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:16:13.319 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:16:43.345 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:17:03.497 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:17:13.371 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:17:43.398 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:18:13.429 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:18:43.445 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:19:13.459 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:19:43.480 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:20:13.503 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:20:43.526 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:20:52.256 +06:00 [INF] User logged in successfully
+2025-09-20 15:21:13.543 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:21:43.572 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:22:03.599 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:22:13.597 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:22:43.609 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:23:13.640 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:23:43.659 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:24:13.677 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:24:43.698 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:25:13.741 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:25:43.758 +06:00 [DBG] Server desktop-c1paikg:11068:ee7a53cb heartbeat successfully sent
+2025-09-20 15:27:16.891 +06:00 [INF] Application Starting......
+2025-09-20 15:27:18.115 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 15:27:18.542 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 15:27:18.841 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 15:27:18.841 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 15:27:18.842 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 15:27:18.851 +06:00 [DBG] Execution loop BackgroundServerProcess:d5af8d07 has started in 5.0741 ms
+2025-09-20 15:27:18.969 +06:00 [INF] Server desktop-c1paikg:9140:74c6fcd2 successfully announced in 111.4473 ms
+2025-09-20 15:27:18.974 +06:00 [DBG] Execution loop ServerHeartbeatProcess:023e0951 has started in 3.7387 ms
+2025-09-20 15:27:18.974 +06:00 [INF] Server desktop-c1paikg:9140:74c6fcd2 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 15:27:18.978 +06:00 [DBG] Execution loop ServerWatchdog:a7b2b8f0 has started in 3.191 ms
+2025-09-20 15:27:18.982 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:53b3298d has started in 7.5798 ms
+2025-09-20 15:27:18.986 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:5a46c533 has started in 7.6588 ms
+2025-09-20 15:27:18.989 +06:00 [DBG] Execution loop ExpirationManager:44e8d85f has started in 3.3844 ms
+2025-09-20 15:27:18.993 +06:00 [DBG] Execution loop CountersAggregator:cc59a017 has started in 6.1443 ms
+2025-09-20 15:27:18.994 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:27:19.061 +06:00 [DBG] Execution loop Worker:0454615a has started in 71.33 ms
+2025-09-20 15:27:19.062 +06:00 [DBG] Execution loop Worker:915bcb13 has started in 72.3903 ms
+2025-09-20 15:27:19.063 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 15:27:19.063 +06:00 [DBG] Execution loop Worker:544afd19 has started in 73.0018 ms
+2025-09-20 15:27:19.099 +06:00 [DBG] Execution loop Worker:52859560 has started in 109.5387 ms
+2025-09-20 15:27:19.112 +06:00 [DBG] Execution loop Worker:2b362cce has started in 121.8994 ms
+2025-09-20 15:27:19.126 +06:00 [DBG] Execution loop Worker:a249cb31 has started in 135.6281 ms
+2025-09-20 15:27:19.225 +06:00 [DBG] Execution loop Worker:912c837d has started in 235.3258 ms
+2025-09-20 15:27:19.245 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 15:27:19.305 +06:00 [DBG] Execution loop Worker:df05cea5 has started in 315.0349 ms
+2025-09-20 15:27:19.313 +06:00 [DBG] Execution loop Worker:22ec232e has started in 322.9859 ms
+2025-09-20 15:27:19.316 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 15:27:19.324 +06:00 [DBG] Execution loop Worker:1eab07db has started in 333.794 ms
+2025-09-20 15:27:19.364 +06:00 [DBG] Execution loop Worker:03520774 has started in 374.0726 ms
+2025-09-20 15:27:19.364 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 15:27:19.364 +06:00 [DBG] Execution loop Worker:433c8093 has started in 374.0728 ms
+2025-09-20 15:27:19.370 +06:00 [DBG] Execution loop Worker:7983d3bb has started in 380.5829 ms
+2025-09-20 15:27:19.409 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 15:27:19.409 +06:00 [DBG] Execution loop Worker:79554524 has started in 419.6266 ms
+2025-09-20 15:27:19.409 +06:00 [DBG] Execution loop Worker:eefb2a08 has started in 419.614 ms
+2025-09-20 15:27:19.413 +06:00 [DBG] Execution loop Worker:9ae34d1a has started in 423.6433 ms
+2025-09-20 15:27:19.440 +06:00 [DBG] Execution loop Worker:a890734b has started in 450.259 ms
+2025-09-20 15:27:19.440 +06:00 [DBG] Execution loop Worker:56fae27f has started in 450.2588 ms
+2025-09-20 15:27:19.472 +06:00 [DBG] Execution loop Worker:cc93c56f has started in 482.3611 ms
+2025-09-20 15:27:19.472 +06:00 [DBG] Execution loop Worker:2267c3f8 has started in 482.4561 ms
+2025-09-20 15:27:19.504 +06:00 [DBG] Execution loop DelayedJobScheduler:65c47296 has started in 32.1606 ms
+2025-09-20 15:27:19.504 +06:00 [INF] Server desktop-c1paikg:9140:74c6fcd2 all the dispatchers started
+2025-09-20 15:27:19.507 +06:00 [DBG] Execution loop RecurringJobScheduler:f74ac92f has started in 34.4449 ms
+2025-09-20 15:27:29.321 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 15:27:49.022 +06:00 [DBG] Server desktop-c1paikg:9140:74c6fcd2 heartbeat successfully sent
+2025-09-20 15:28:19.048 +06:00 [DBG] Server desktop-c1paikg:9140:74c6fcd2 heartbeat successfully sent
+2025-09-20 15:28:49.084 +06:00 [DBG] Server desktop-c1paikg:9140:74c6fcd2 heartbeat successfully sent
+2025-09-20 15:29:19.110 +06:00 [DBG] Server desktop-c1paikg:9140:74c6fcd2 heartbeat successfully sent
+2025-09-20 15:38:58.921 +06:00 [INF] Application Starting......
+2025-09-20 15:39:00.107 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 15:39:00.479 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 15:39:00.773 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 15:39:00.773 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 15:39:00.773 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 15:39:00.782 +06:00 [DBG] Execution loop BackgroundServerProcess:f44fbe3c has started in 4.7933 ms
+2025-09-20 15:39:00.889 +06:00 [INF] Server desktop-c1paikg:4684:60ca601f successfully announced in 100.1242 ms
+2025-09-20 15:39:00.893 +06:00 [DBG] Execution loop ServerHeartbeatProcess:7bb8a42b has started in 3.1955 ms
+2025-09-20 15:39:00.893 +06:00 [INF] Server desktop-c1paikg:4684:60ca601f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 15:39:00.896 +06:00 [DBG] Execution loop ServerWatchdog:eee6bb7c has started in 2.7065 ms
+2025-09-20 15:39:00.899 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:2c498d21 has started in 4.8806 ms
+2025-09-20 15:39:00.936 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:c748b57a has started in 40.0015 ms
+2025-09-20 15:39:00.946 +06:00 [DBG] Execution loop ExpirationManager:d254a7a8 has started in 46.6492 ms
+2025-09-20 15:39:00.983 +06:00 [DBG] Execution loop CountersAggregator:88088a93 has started in 45.8851 ms
+2025-09-20 15:39:00.984 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:39:00.986 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 15:39:01.026 +06:00 [INF] 2 servers were removed due to timeout
+2025-09-20 15:39:01.026 +06:00 [DBG] Execution loop Worker:b18d6b12 has started in 80.3659 ms
+2025-09-20 15:39:01.029 +06:00 [DBG] Execution loop Worker:b5c61b20 has started in 83.0962 ms
+2025-09-20 15:39:01.031 +06:00 [DBG] Execution loop Worker:0838c614 has started in 85.6681 ms
+2025-09-20 15:39:01.056 +06:00 [DBG] Execution loop Worker:8b17b68d has started in 110.2497 ms
+2025-09-20 15:39:01.059 +06:00 [DBG] Execution loop Worker:818d58bc has started in 113.1604 ms
+2025-09-20 15:39:01.061 +06:00 [DBG] Execution loop Worker:aa30ae58 has started in 115.5584 ms
+2025-09-20 15:39:01.088 +06:00 [DBG] Execution loop Worker:8f204f35 has started in 142.2565 ms
+2025-09-20 15:39:01.088 +06:00 [DBG] Execution loop Worker:72ca2211 has started in 142.2525 ms
+2025-09-20 15:39:01.092 +06:00 [DBG] Execution loop Worker:2af34eea has started in 146.1425 ms
+2025-09-20 15:39:01.095 +06:00 [DBG] Execution loop Worker:8763b321 has started in 148.9843 ms
+2025-09-20 15:39:01.136 +06:00 [DBG] Execution loop Worker:5b2c9add has started in 154.44 ms
+2025-09-20 15:39:01.136 +06:00 [DBG] Execution loop Worker:4e9908cb has started in 190.057 ms
+2025-09-20 15:39:01.136 +06:00 [DBG] Execution loop Worker:5b404235 has started in 189.9928 ms
+2025-09-20 15:39:01.140 +06:00 [DBG] Execution loop Worker:63a9ba0d has started in 194.5684 ms
+2025-09-20 15:39:01.145 +06:00 [DBG] Execution loop Worker:be9bdf0d has started in 198.9697 ms
+2025-09-20 15:39:01.150 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 15:39:01.150 +06:00 [DBG] Execution loop Worker:afe699d2 has started in 204.6711 ms
+2025-09-20 15:39:01.154 +06:00 [DBG] Execution loop Worker:742e08cd has started in 208.2131 ms
+2025-09-20 15:39:01.165 +06:00 [DBG] Execution loop Worker:db6a1909 has started in 219.1506 ms
+2025-09-20 15:39:01.167 +06:00 [DBG] Execution loop Worker:7c8a8e87 has started in 221.565 ms
+2025-09-20 15:39:01.181 +06:00 [DBG] Execution loop Worker:6dea2bad has started in 234.9978 ms
+2025-09-20 15:39:01.186 +06:00 [DBG] Execution loop DelayedJobScheduler:836a6144 has started in 10.6338 ms
+2025-09-20 15:39:01.189 +06:00 [INF] Server desktop-c1paikg:4684:60ca601f all the dispatchers started
+2025-09-20 15:39:01.197 +06:00 [DBG] Execution loop RecurringJobScheduler:18014bea has started in 11.1282 ms
+2025-09-20 15:39:01.303 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 15:39:01.400 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 15:39:01.417 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 15:39:18.685 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 15:39:31.005 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:40:01.037 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:40:31.050 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:41:01.076 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:41:31.100 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:42:01.118 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:42:34.003 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:43:04.064 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:43:34.082 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:44:01.233 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:44:04.108 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:44:34.133 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:45:04.156 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:45:34.175 +06:00 [DBG] Server desktop-c1paikg:4684:60ca601f heartbeat successfully sent
+2025-09-20 15:47:31.979 +06:00 [INF] Application Starting......
+2025-09-20 15:47:33.233 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 15:47:33.635 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 15:47:33.923 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 15:47:33.923 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 15:47:33.923 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 15:47:33.937 +06:00 [DBG] Execution loop BackgroundServerProcess:fedce70f has started in 6.456 ms
+2025-09-20 15:47:34.041 +06:00 [INF] Server desktop-c1paikg:6544:3f4a4a96 successfully announced in 102.0669 ms
+2025-09-20 15:47:34.045 +06:00 [DBG] Execution loop ServerHeartbeatProcess:ad8e4882 has started in 3.1432 ms
+2025-09-20 15:47:34.045 +06:00 [INF] Server desktop-c1paikg:6544:3f4a4a96 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 15:47:34.048 +06:00 [DBG] Execution loop ServerWatchdog:8100335f has started in 2.9174 ms
+2025-09-20 15:47:34.051 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:a675ee24 has started in 5.0405 ms
+2025-09-20 15:47:34.053 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:c425a5ab has started in 4.8885 ms
+2025-09-20 15:47:34.086 +06:00 [DBG] Execution loop CountersAggregator:dd683f4b has started in 32.3999 ms
+2025-09-20 15:47:34.086 +06:00 [DBG] Execution loop ExpirationManager:df2125c1 has started in 35.4104 ms
+2025-09-20 15:47:34.087 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:47:34.090 +06:00 [DBG] Execution loop Worker:80bbba00 has started in 4.3776 ms
+2025-09-20 15:47:34.091 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 15:47:34.133 +06:00 [DBG] Execution loop Worker:a218550e has started in 47.1421 ms
+2025-09-20 15:47:34.133 +06:00 [DBG] Execution loop Worker:d5e17085 has started in 47.3838 ms
+2025-09-20 15:47:34.133 +06:00 [DBG] Execution loop Worker:7a846633 has started in 47.4916 ms
+2025-09-20 15:47:34.141 +06:00 [DBG] Execution loop Worker:e5205150 has started in 55.4654 ms
+2025-09-20 15:47:34.144 +06:00 [DBG] Execution loop Worker:ce87091e has started in 58.0835 ms
+2025-09-20 15:47:34.153 +06:00 [DBG] Execution loop Worker:35edcb54 has started in 66.7898 ms
+2025-09-20 15:47:34.162 +06:00 [DBG] Execution loop Worker:c6486f27 has started in 75.9154 ms
+2025-09-20 15:47:34.167 +06:00 [DBG] Execution loop Worker:b8d32510 has started in 81.1344 ms
+2025-09-20 15:47:34.183 +06:00 [DBG] Execution loop Worker:addaebac has started in 97.2078 ms
+2025-09-20 15:47:34.189 +06:00 [DBG] Execution loop Worker:eeef6db9 has started in 103.0606 ms
+2025-09-20 15:47:34.203 +06:00 [DBG] Execution loop Worker:b7e60d45 has started in 117.11 ms
+2025-09-20 15:47:34.208 +06:00 [DBG] Execution loop Worker:3bccfb4e has started in 122.0664 ms
+2025-09-20 15:47:34.209 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 15:47:34.215 +06:00 [DBG] Execution loop Worker:8683786a has started in 129.0324 ms
+2025-09-20 15:47:34.223 +06:00 [DBG] Execution loop Worker:59135c2e has started in 137.1564 ms
+2025-09-20 15:47:34.261 +06:00 [DBG] Execution loop Worker:3366ef34 has started in 175.4388 ms
+2025-09-20 15:47:34.300 +06:00 [DBG] Execution loop Worker:d34ede3d has started in 214.3824 ms
+2025-09-20 15:47:34.315 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 15:47:34.316 +06:00 [DBG] Execution loop Worker:d2a973b2 has started in 229.8196 ms
+2025-09-20 15:47:34.334 +06:00 [DBG] Execution loop Worker:e97cacd0 has started in 247.7878 ms
+2025-09-20 15:47:34.346 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 15:47:34.372 +06:00 [DBG] Execution loop Worker:8004c184 has started in 285.9622 ms
+2025-09-20 15:47:34.424 +06:00 [DBG] Execution loop DelayedJobScheduler:a6f1090a has started in 51.4986 ms
+2025-09-20 15:47:34.458 +06:00 [INF] Server desktop-c1paikg:6544:3f4a4a96 all the dispatchers started
+2025-09-20 15:47:34.458 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 15:47:34.494 +06:00 [DBG] Execution loop RecurringJobScheduler:e50ee73f has started in 69.7906 ms
+2025-09-20 15:48:03.184 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 15:48:13.484 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:48:43.514 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:49:13.534 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:49:43.551 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:50:13.577 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:50:43.596 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:51:13.615 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:51:43.658 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:52:13.684 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:52:34.250 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-20 15:52:34.278 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 15:52:43.708 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:53:13.727 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:53:43.746 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:54:13.775 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:54:43.792 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:55:13.832 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 15:55:43.846 +06:00 [DBG] Server desktop-c1paikg:6544:3f4a4a96 heartbeat successfully sent
+2025-09-20 17:01:57.475 +06:00 [INF] Application Starting......
+2025-09-20 17:02:00.018 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 17:02:00.609 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 17:02:01.044 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 17:02:01.044 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 17:02:01.044 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 17:02:01.056 +06:00 [DBG] Execution loop BackgroundServerProcess:51c7ba22 has started in 5.6315 ms
+2025-09-20 17:02:01.268 +06:00 [INF] Server desktop-c1paikg:11236:348cb9a1 successfully announced in 203.1804 ms
+2025-09-20 17:02:01.273 +06:00 [DBG] Execution loop ServerHeartbeatProcess:452fd6e0 has started in 4.2082 ms
+2025-09-20 17:02:01.274 +06:00 [INF] Server desktop-c1paikg:11236:348cb9a1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 17:02:01.281 +06:00 [DBG] Execution loop ServerWatchdog:69843016 has started in 6.9827 ms
+2025-09-20 17:02:01.285 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:11ec4520 has started in 3.7899 ms
+2025-09-20 17:02:01.288 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:5cb18de8 has started in 6.1657 ms
+2025-09-20 17:02:01.320 +06:00 [DBG] Execution loop ExpirationManager:fd16fde4 has started in 34.53 ms
+2025-09-20 17:02:01.323 +06:00 [DBG] Execution loop CountersAggregator:2f587eba has started in 3.3138 ms
+2025-09-20 17:02:01.328 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-20 17:02:01.325 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:02:01.328 +06:00 [DBG] Execution loop Worker:f1abe995 has started in 7.7581 ms
+2025-09-20 17:02:01.332 +06:00 [DBG] Execution loop Worker:c46db89f has started in 11.6834 ms
+2025-09-20 17:02:01.335 +06:00 [DBG] Execution loop Worker:fa167460 has started in 15.101 ms
+2025-09-20 17:02:01.335 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 17:02:01.340 +06:00 [DBG] Execution loop Worker:70ee7a8c has started in 19.8791 ms
+2025-09-20 17:02:01.345 +06:00 [DBG] Execution loop Worker:f9cef44b has started in 24.9686 ms
+2025-09-20 17:02:01.350 +06:00 [DBG] Execution loop Worker:f01286cf has started in 29.7792 ms
+2025-09-20 17:02:01.354 +06:00 [DBG] Execution loop Worker:fc62873c has started in 33.8948 ms
+2025-09-20 17:02:01.385 +06:00 [DBG] Execution loop Worker:5cd2e350 has started in 65.0283 ms
+2025-09-20 17:02:01.386 +06:00 [DBG] Execution loop Worker:0aaaa01a has started in 65.7233 ms
+2025-09-20 17:02:01.389 +06:00 [DBG] Execution loop Worker:b9b8252c has started in 69.1208 ms
+2025-09-20 17:02:01.393 +06:00 [DBG] Execution loop Worker:84a82142 has started in 73.055 ms
+2025-09-20 17:02:01.398 +06:00 [DBG] Execution loop Worker:2bf60118 has started in 77.4972 ms
+2025-09-20 17:02:01.401 +06:00 [DBG] Execution loop Worker:ab1bc6aa has started in 81.269 ms
+2025-09-20 17:02:01.404 +06:00 [DBG] Execution loop Worker:33d70dac has started in 84.2986 ms
+2025-09-20 17:02:01.407 +06:00 [DBG] Execution loop Worker:1ea48f63 has started in 87.2605 ms
+2025-09-20 17:02:01.443 +06:00 [DBG] Execution loop Worker:85237947 has started in 122.3898 ms
+2025-09-20 17:02:01.475 +06:00 [DBG] Execution loop Worker:95dd106e has started in 154.3989 ms
+2025-09-20 17:02:01.475 +06:00 [DBG] Execution loop Worker:a64f2002 has started in 154.3988 ms
+2025-09-20 17:02:01.475 +06:00 [DBG] Execution loop Worker:8492eb08 has started in 154.5783 ms
+2025-09-20 17:02:01.475 +06:00 [DBG] Execution loop Worker:e1b77ab7 has started in 154.5106 ms
+2025-09-20 17:02:01.479 +06:00 [DBG] Execution loop DelayedJobScheduler:c268865d has started in 31.7986 ms
+2025-09-20 17:02:01.479 +06:00 [INF] Server desktop-c1paikg:11236:348cb9a1 all the dispatchers started
+2025-09-20 17:02:01.880 +06:00 [DBG] Execution loop RecurringJobScheduler:917a05a2 has started in 404.7847 ms
+2025-09-20 17:02:01.908 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 17:02:01.934 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 17:02:01.946 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 17:02:01.949 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 17:02:31.410 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:03:01.426 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:03:31.434 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:04:01.455 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:04:31.473 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:05:01.465 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 17:05:01.517 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:05:31.553 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:06:01.570 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:06:31.600 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:07:01.430 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:07:01.606 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:07:31.630 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:08:01.642 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:08:31.665 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:09:01.691 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:09:31.712 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:10:01.778 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:10:02.271 +06:00 [INF] User logged in successfully
+2025-09-20 17:10:31.803 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:11:01.827 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:11:31.859 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:12:01.580 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:12:01.877 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:12:31.897 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:13:01.909 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:13:31.930 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:14:01.946 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:14:31.992 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:15:02.007 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:15:32.027 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:16:02.054 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:16:32.065 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:17:01.700 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:17:02.081 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:17:32.110 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:18:02.129 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:18:32.276 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:19:02.300 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:19:32.308 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:20:02.332 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:20:32.351 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:21:02.360 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:21:32.386 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:22:01.960 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:22:02.435 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:22:32.456 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:23:02.482 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:23:32.502 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:24:02.518 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:24:32.535 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:25:02.549 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:25:32.572 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:26:02.594 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:26:32.621 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:27:02.130 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:27:02.646 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:27:32.664 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:28:02.694 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:28:32.718 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:29:02.745 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:29:32.760 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:30:02.776 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:30:32.800 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:31:02.821 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:31:32.843 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:32:02.262 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:32:02.621 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 17:32:02.628 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 17:32:02.642 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 17:32:02.644 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 17:32:02.646 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 17:32:02.855 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:32:32.871 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:33:02.889 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:33:32.900 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:34:02.922 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:34:32.954 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:35:02.961 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:35:32.980 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:36:03.004 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:36:33.013 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:37:02.362 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:37:03.030 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:37:33.043 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:38:03.057 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:38:33.072 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:39:03.088 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:39:33.095 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:40:03.118 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:40:33.142 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:41:03.156 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:41:33.167 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:42:02.459 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:42:03.186 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:42:33.193 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:43:03.203 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:43:33.227 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:44:03.235 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:44:33.245 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:45:03.261 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:45:33.290 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:46:03.310 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:46:33.337 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:47:02.578 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:47:03.353 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:47:33.371 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:48:03.385 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:48:33.420 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:49:03.434 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:49:33.463 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:50:03.478 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:50:33.500 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:51:03.518 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:51:33.533 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:52:02.693 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:52:03.554 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:52:14.322 +06:00 [INF] User logged in successfully
+2025-09-20 17:52:33.583 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:53:03.604 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:53:33.620 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:54:03.627 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:54:33.639 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:55:03.647 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:55:33.671 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:56:03.691 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:56:33.714 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:57:02.790 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 17:57:03.721 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:57:33.734 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:58:03.743 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:58:33.766 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:59:03.782 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 17:59:33.800 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:00:03.823 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:00:33.839 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:01:03.859 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:01:33.873 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:02:02.861 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:02:03.062 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 18:02:03.065 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 18:02:03.069 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 18:02:03.071 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 18:02:03.072 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 18:02:03.888 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:02:33.899 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:03:03.915 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:03:33.928 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:04:03.938 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:04:34.055 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:05:04.066 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:05:34.082 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:06:04.104 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:06:34.118 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:07:03.049 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:07:04.132 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:07:34.155 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:08:04.172 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:08:34.201 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:09:04.230 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:09:34.246 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:10:04.265 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:10:34.289 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:11:04.302 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:11:34.321 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:12:03.155 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:12:04.340 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:12:34.359 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:13:04.369 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:13:34.402 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:14:04.421 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:14:34.442 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:15:04.457 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:15:34.465 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:16:04.479 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:16:34.502 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:17:03.248 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:17:04.524 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:17:34.552 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:18:04.572 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:18:34.603 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:19:04.622 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:19:34.640 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:20:04.661 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:20:34.694 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:21:04.705 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:21:34.727 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:22:03.380 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:22:04.748 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:22:34.771 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:23:04.791 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:23:34.808 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:24:04.817 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:24:34.839 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:25:04.865 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:25:34.887 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:26:04.911 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:26:34.931 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:27:03.498 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:27:04.948 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:27:34.980 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:28:05.015 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:28:35.035 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:29:05.051 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:29:35.075 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:30:05.085 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:30:35.106 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:31:05.113 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:31:34.353 +06:00 [INF] User logged in successfully
+2025-09-20 18:31:35.139 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:32:03.615 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:32:03.645 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 18:32:03.651 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 18:32:03.658 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 18:32:03.662 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 18:32:03.664 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 18:32:05.161 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:32:35.194 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:33:05.204 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:33:35.228 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:34:05.240 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:34:35.252 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:35:05.296 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:35:35.305 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:36:05.316 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:36:35.332 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:37:03.749 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:37:05.351 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:37:35.363 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:38:05.370 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:38:35.374 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:39:05.386 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:39:35.400 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:40:05.419 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:40:35.437 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:41:05.446 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:41:35.457 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:42:03.811 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:42:05.470 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:42:35.488 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:43:05.492 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:43:35.516 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:44:05.524 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:44:35.542 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:45:05.557 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:45:35.579 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:46:05.595 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:46:35.603 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:47:03.881 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:47:05.617 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:47:35.633 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:48:05.643 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:48:35.648 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:49:05.661 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:49:35.669 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:50:05.680 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:50:35.690 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:51:05.741 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:51:35.756 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:52:03.924 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:52:05.768 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:52:35.777 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:53:05.788 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:53:35.807 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:54:05.827 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:54:35.840 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:55:05.850 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:55:35.856 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:56:05.865 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:56:35.874 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:57:03.979 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 18:57:05.893 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:57:35.900 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:58:05.914 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:58:35.932 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:59:05.944 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 18:59:36.485 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:00:06.497 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:00:36.507 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:01:06.513 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:01:36.577 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:02:04.367 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 19:02:04.541 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 19:02:04.661 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:02:04.671 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 19:02:04.817 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 19:02:04.935 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 19:02:06.754 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:02:36.792 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:03:06.802 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:03:36.810 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:04:06.833 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:04:36.843 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:05:06.860 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:05:36.881 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:06:06.898 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:06:36.916 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:07:05.092 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:07:06.928 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:07:36.934 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:08:06.941 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:08:36.956 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:09:06.962 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:09:36.967 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:10:06.978 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:10:36.986 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:11:07.005 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:11:37.020 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:12:05.147 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:12:07.036 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:12:37.052 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:13:07.059 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:13:37.072 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:14:07.087 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:14:37.096 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:15:07.112 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:15:37.122 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:16:07.139 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:16:37.149 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:17:05.197 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:17:07.162 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:17:37.170 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:18:07.180 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:18:37.194 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:19:07.200 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:19:37.215 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:20:07.236 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:20:37.244 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:21:07.257 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:21:37.274 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:22:05.247 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:22:07.284 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:22:37.296 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:23:07.302 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:23:37.306 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:24:07.313 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:24:37.322 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:25:07.342 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:25:37.357 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:26:07.375 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:26:37.384 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:27:05.295 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:27:07.395 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:27:37.403 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:28:07.415 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:28:37.433 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:29:07.441 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:29:37.455 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:30:07.466 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:30:37.481 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:31:07.494 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:31:37.510 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:32:05.264 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 19:32:05.267 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 19:32:05.273 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 19:32:05.275 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 19:32:05.277 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 19:32:05.344 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:32:07.530 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:32:37.544 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:33:07.552 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:33:37.565 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:34:07.589 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:34:37.593 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:35:07.609 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:35:37.616 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:36:07.631 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:36:37.638 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:37:05.401 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:37:07.644 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:37:37.664 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:38:07.683 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:38:37.699 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:39:07.715 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:39:37.727 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:40:07.744 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:40:37.753 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:41:07.766 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:41:37.781 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:42:05.462 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:42:07.800 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:42:37.816 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:43:07.831 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:43:37.855 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:44:07.867 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:44:37.885 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:45:07.894 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:45:37.908 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:46:07.922 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:46:37.931 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:47:05.518 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:47:07.951 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:47:37.961 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:48:07.970 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:48:37.977 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:49:07.979 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:49:37.999 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:50:08.008 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:50:38.027 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:51:08.042 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:51:38.060 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:52:05.579 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:52:08.079 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:52:38.085 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:53:08.106 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:53:38.115 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:54:08.132 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:54:27.015 +06:00 [INF] User logged in successfully
+2025-09-20 19:54:38.139 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:55:08.147 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:55:38.165 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:56:08.186 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:56:38.197 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:57:05.624 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 19:57:08.210 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:57:38.222 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:58:08.229 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:58:38.244 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:59:08.259 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 19:59:38.279 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:00:08.286 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:00:38.294 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:01:08.306 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:01:38.324 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:02:05.351 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 20:02:05.354 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 20:02:05.358 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 20:02:05.360 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 20:02:05.362 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 20:02:05.677 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:02:08.335 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:02:38.359 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:03:08.374 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:03:38.380 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:04:08.393 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:04:38.408 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:05:08.416 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:05:38.426 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:06:08.439 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:06:38.449 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:07:05.732 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:07:08.464 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:07:38.468 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:08:08.484 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:08:38.489 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:09:08.502 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:09:38.515 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:10:08.524 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:10:38.531 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:11:08.539 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:11:38.543 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:12:05.789 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:12:08.561 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:12:38.582 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:13:08.587 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:13:38.595 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:14:08.603 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:14:38.621 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:15:08.636 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:15:38.652 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:16:08.665 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:16:38.681 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:17:05.852 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:17:08.702 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:17:38.713 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:18:08.728 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:18:38.733 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:19:08.754 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:19:38.767 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:20:08.771 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:20:38.786 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:21:08.791 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:21:38.802 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:22:05.915 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:22:08.812 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:22:38.820 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:23:08.827 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:23:38.843 +06:00 [DBG] Server desktop-c1paikg:11236:348cb9a1 heartbeat successfully sent
+2025-09-20 20:34:15.625 +06:00 [INF] Application Starting......
+2025-09-20 20:34:16.956 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 20:34:17.456 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 20:34:17.775 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 20:34:17.776 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 20:34:17.776 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 20:34:17.809 +06:00 [DBG] Execution loop BackgroundServerProcess:0a2ac66a has started in 26.843 ms
+2025-09-20 20:34:18.152 +06:00 [INF] Server desktop-c1paikg:21528:07b81c10 successfully announced in 278.438 ms
+2025-09-20 20:34:18.162 +06:00 [DBG] Execution loop ServerHeartbeatProcess:b50af417 has started in 7.9742 ms
+2025-09-20 20:34:18.163 +06:00 [INF] Server desktop-c1paikg:21528:07b81c10 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 20:34:18.205 +06:00 [DBG] Execution loop ServerWatchdog:c4e74057 has started in 42.1705 ms
+2025-09-20 20:34:18.244 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:9c3cee30 has started in 80.6538 ms
+2025-09-20 20:34:18.250 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:8518020e has started in 4.9438 ms
+2025-09-20 20:34:18.258 +06:00 [DBG] Execution loop ExpirationManager:5d6875f5 has started in 11.4818 ms
+2025-09-20 20:34:18.263 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 20:34:18.274 +06:00 [DBG] Execution loop CountersAggregator:9fe842e3 has started in 22.155 ms
+2025-09-20 20:34:18.274 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:34:18.279 +06:00 [DBG] Execution loop Worker:2bd4dc48 has started in 5.993 ms
+2025-09-20 20:34:18.305 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-20 20:34:18.305 +06:00 [DBG] Execution loop Worker:106cad72 has started in 32.0349 ms
+2025-09-20 20:34:18.310 +06:00 [DBG] Execution loop Worker:6fb60ae6 has started in 37.1121 ms
+2025-09-20 20:34:18.315 +06:00 [DBG] Execution loop Worker:62992766 has started in 41.7203 ms
+2025-09-20 20:34:18.320 +06:00 [DBG] Execution loop Worker:c33a188b has started in 46.3416 ms
+2025-09-20 20:34:18.326 +06:00 [DBG] Execution loop Worker:5e50c148 has started in 52.5646 ms
+2025-09-20 20:34:18.341 +06:00 [DBG] Execution loop Worker:55f82457 has started in 67.5923 ms
+2025-09-20 20:34:18.347 +06:00 [DBG] Execution loop Worker:8cd6216b has started in 73.9528 ms
+2025-09-20 20:34:18.356 +06:00 [DBG] Execution loop Worker:51f64185 has started in 79.7247 ms
+2025-09-20 20:34:18.361 +06:00 [DBG] Execution loop Worker:8c2acd7d has started in 87.4399 ms
+2025-09-20 20:34:18.392 +06:00 [DBG] Execution loop Worker:7953b5a6 has started in 118.8308 ms
+2025-09-20 20:34:18.402 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 20:34:18.408 +06:00 [DBG] Execution loop Worker:f66963c8 has started in 134.7878 ms
+2025-09-20 20:34:18.425 +06:00 [DBG] Execution loop Worker:fe9b952b has started in 151.5865 ms
+2025-09-20 20:34:18.425 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 20:34:18.479 +06:00 [DBG] Execution loop Worker:a4172680 has started in 205.3447 ms
+2025-09-20 20:34:18.482 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 20:34:18.489 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 20:34:18.503 +06:00 [DBG] Execution loop Worker:a4bcaa86 has started in 229.3197 ms
+2025-09-20 20:34:18.517 +06:00 [DBG] Execution loop Worker:bbe7861a has started in 243.8903 ms
+2025-09-20 20:34:18.554 +06:00 [DBG] Execution loop Worker:802181eb has started in 281.0609 ms
+2025-09-20 20:34:18.562 +06:00 [DBG] Execution loop Worker:10efe735 has started in 288.3732 ms
+2025-09-20 20:34:18.571 +06:00 [DBG] Execution loop Worker:db07d25a has started in 297.9436 ms
+2025-09-20 20:34:18.616 +06:00 [DBG] Execution loop Worker:2b1ef73c has started in 342.2953 ms
+2025-09-20 20:34:18.628 +06:00 [DBG] Execution loop DelayedJobScheduler:7c46b644 has started in 12.9022 ms
+2025-09-20 20:34:18.632 +06:00 [INF] Server desktop-c1paikg:21528:07b81c10 all the dispatchers started
+2025-09-20 20:34:18.662 +06:00 [DBG] Execution loop RecurringJobScheduler:51ade1ed has started in 34.5715 ms
+2025-09-20 20:34:48.414 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:34:49.526 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 20:34:50.767 +06:00 [INF] User logged in successfully
+2025-09-20 20:35:18.455 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:35:48.502 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:36:18.525 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:36:48.534 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:37:18.553 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:37:48.593 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:38:18.604 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:38:48.633 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:39:18.528 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:39:18.655 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:39:48.682 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:40:18.699 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:40:48.724 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:41:18.755 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:41:48.772 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:42:18.806 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:42:48.821 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:43:18.842 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:43:48.866 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:44:18.683 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:44:18.888 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:44:48.914 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:45:18.935 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:45:48.957 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:46:18.974 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:46:48.997 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:47:19.018 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:47:49.043 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:48:19.056 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:48:49.074 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:49:18.816 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:49:19.099 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:49:49.123 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:50:19.142 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:50:49.174 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:51:19.193 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:51:49.223 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:52:19.241 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:52:49.267 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:53:19.297 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:53:49.312 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:54:18.963 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:54:19.330 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:54:49.348 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:55:19.366 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:55:49.388 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:56:19.397 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:56:49.417 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:57:19.431 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:57:49.447 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:58:19.465 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:58:49.484 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:59:19.093 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 20:59:19.495 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 20:59:49.526 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:00:19.544 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:00:49.558 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:01:19.581 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:01:49.599 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:02:19.617 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:02:49.644 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:03:19.667 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:03:49.684 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:04:19.101 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 21:04:19.108 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 21:04:19.120 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 21:04:19.125 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 21:04:19.129 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 21:04:19.225 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:04:19.708 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:04:49.729 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:05:19.742 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:05:49.758 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:06:19.771 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:06:49.786 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:07:19.805 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:07:49.819 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:08:19.852 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:08:49.874 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:09:19.340 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:09:19.902 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:09:49.924 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:10:19.948 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:10:49.970 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:11:19.978 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:11:49.990 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:12:20.005 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:12:50.030 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:13:20.046 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:13:50.074 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:14:19.438 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:14:20.089 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:14:50.105 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:15:20.128 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:15:50.141 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:16:20.157 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:16:50.167 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:17:20.193 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:17:50.207 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:18:20.232 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:18:50.257 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:19:19.552 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:19:20.267 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:19:50.283 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:20:20.306 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:20:50.322 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:21:20.346 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:21:50.367 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:22:20.397 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:22:50.426 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:23:20.450 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:23:50.473 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:24:19.688 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:24:20.494 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:24:50.501 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:25:20.508 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:25:50.532 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:26:20.545 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:26:50.577 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:27:20.584 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:27:50.597 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:28:20.622 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:28:50.643 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:29:19.782 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:29:20.672 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:29:50.694 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:30:20.730 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:30:50.740 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:31:20.764 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:31:50.777 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:32:20.787 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:32:50.794 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:33:20.810 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:33:50.837 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:34:19.285 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 21:34:19.292 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 21:34:19.304 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 21:34:19.308 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 21:34:19.313 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 21:34:19.888 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:34:20.846 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:34:50.870 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:35:20.884 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:35:50.897 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:36:20.919 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:36:50.929 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:37:20.946 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:37:50.969 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:38:20.990 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:38:51.013 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:39:20.010 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:39:21.036 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:39:51.054 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:40:21.082 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:40:51.101 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:41:21.131 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:41:51.148 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:42:21.163 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:42:51.176 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:43:21.197 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:43:31.731 +06:00 [INF] User logged in successfully
+2025-09-20 21:43:51.224 +06:00 [DBG] Server desktop-c1paikg:21528:07b81c10 heartbeat successfully sent
+2025-09-20 21:43:56.302 +06:00 [INF] Application Starting......
+2025-09-20 21:43:57.483 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 21:43:57.967 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 21:43:58.289 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 21:43:58.290 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 21:43:58.290 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 21:43:58.298 +06:00 [DBG] Execution loop BackgroundServerProcess:9ffaa95e has started in 4.2275 ms
+2025-09-20 21:43:58.407 +06:00 [INF] Server desktop-c1paikg:17184:b0776167 successfully announced in 102.3128 ms
+2025-09-20 21:43:58.411 +06:00 [DBG] Execution loop ServerHeartbeatProcess:2df0c47f has started in 3.551 ms
+2025-09-20 21:43:58.412 +06:00 [INF] Server desktop-c1paikg:17184:b0776167 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 21:43:58.441 +06:00 [DBG] Execution loop ServerWatchdog:ba870c58 has started in 29.1686 ms
+2025-09-20 21:43:58.444 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:48104959 has started in 31.4988 ms
+2025-09-20 21:43:58.448 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:9c6d22c1 has started in 33.4991 ms
+2025-09-20 21:43:58.451 +06:00 [DBG] Execution loop ExpirationManager:5dfb3580 has started in 4.9544 ms
+2025-09-20 21:43:58.488 +06:00 [DBG] Execution loop Worker:4fa8a7aa has started in 36.4562 ms
+2025-09-20 21:43:58.488 +06:00 [DBG] Execution loop CountersAggregator:64aae445 has started in 39.1288 ms
+2025-09-20 21:43:58.488 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:43:58.491 +06:00 [DBG] Execution loop Worker:b523cdf5 has started in 40.0453 ms
+2025-09-20 21:43:58.495 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 21:43:58.495 +06:00 [DBG] Execution loop Worker:d9a483f6 has started in 43.5572 ms
+2025-09-20 21:43:58.497 +06:00 [DBG] Execution loop Worker:741e84a6 has started in 46.1539 ms
+2025-09-20 21:43:58.500 +06:00 [DBG] Execution loop Worker:5616d4e7 has started in 49.2018 ms
+2025-09-20 21:43:58.506 +06:00 [DBG] Execution loop Worker:d8dcb3fb has started in 54.8071 ms
+2025-09-20 21:43:58.513 +06:00 [DBG] Execution loop Worker:300af95e has started in 61.6278 ms
+2025-09-20 21:43:58.557 +06:00 [DBG] Execution loop Worker:fa2bdd93 has started in 106.0749 ms
+2025-09-20 21:43:58.559 +06:00 [DBG] Execution loop Worker:8ba2e3eb has started in 107.6216 ms
+2025-09-20 21:43:58.577 +06:00 [DBG] Execution loop Worker:2d5defda has started in 126.141 ms
+2025-09-20 21:43:58.617 +06:00 [DBG] Execution loop Worker:608a2f39 has started in 165.4013 ms
+2025-09-20 21:43:58.637 +06:00 [DBG] Execution loop Worker:520abc0f has started in 185.2415 ms
+2025-09-20 21:43:58.645 +06:00 [DBG] Execution loop Worker:c3e79bab has started in 193.9481 ms
+2025-09-20 21:43:58.659 +06:00 [DBG] Execution loop Worker:8847a345 has started in 207.8388 ms
+2025-09-20 21:43:58.661 +06:00 [DBG] Execution loop Worker:8c5e960c has started in 209.6821 ms
+2025-09-20 21:43:58.667 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 21:43:58.667 +06:00 [DBG] Execution loop Worker:14c6c5eb has started in 215.8103 ms
+2025-09-20 21:43:58.675 +06:00 [DBG] Execution loop Worker:4d3591b1 has started in 223.7221 ms
+2025-09-20 21:43:58.685 +06:00 [DBG] Execution loop Worker:e8ada0dc has started in 233.4521 ms
+2025-09-20 21:43:58.695 +06:00 [DBG] Execution loop Worker:793e434c has started in 244.0035 ms
+2025-09-20 21:43:58.695 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 21:43:58.724 +06:00 [DBG] Execution loop Worker:9d03f9de has started in 272.7434 ms
+2025-09-20 21:43:58.728 +06:00 [DBG] Execution loop DelayedJobScheduler:8e8e664e has started in 32.8697 ms
+2025-09-20 21:43:58.730 +06:00 [INF] Server desktop-c1paikg:17184:b0776167 all the dispatchers started
+2025-09-20 21:43:58.759 +06:00 [DBG] Execution loop RecurringJobScheduler:68e2d3d4 has started in 34.5683 ms
+2025-09-20 21:43:58.763 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 21:43:58.776 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 21:44:28.588 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:44:58.599 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:45:28.611 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:45:58.626 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:46:28.665 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:46:58.686 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:47:28.698 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:47:58.721 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:48:28.735 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:48:53.394 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 21:48:58.636 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:48:59.382 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-20 21:48:59.392 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:49:29.415 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:49:59.432 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:50:29.446 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:50:59.466 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:51:29.490 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:51:59.513 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:52:29.529 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:52:59.549 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:53:29.572 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:53:59.576 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:53:59.685 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:54:29.706 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:54:59.715 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:55:29.744 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:55:59.748 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:56:29.759 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:56:59.778 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:57:29.793 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:57:59.799 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:58:29.821 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:58:59.642 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 21:58:59.846 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:59:29.869 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 21:59:59.894 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:00:29.996 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:01:00.015 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:01:30.032 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:02:00.054 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:02:30.064 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:03:00.075 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:03:30.095 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:03:59.843 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:04:00.128 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:04:30.142 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:05:00.152 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:05:30.175 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:06:00.187 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:06:30.197 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:07:00.213 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:07:30.237 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:08:00.250 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:08:30.265 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:08:59.900 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:09:00.273 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:09:30.284 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:10:00.302 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:10:30.323 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:11:00.342 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:11:30.361 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:12:00.382 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:12:30.394 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:13:00.414 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:13:30.437 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:13:59.285 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 22:13:59.290 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 22:13:59.298 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 22:13:59.301 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 22:13:59.303 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 22:13:59.983 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:14:00.451 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:14:30.472 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:15:00.496 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:15:30.512 +06:00 [DBG] Server desktop-c1paikg:17184:b0776167 heartbeat successfully sent
+2025-09-20 22:18:57.513 +06:00 [INF] Application Starting......
+2025-09-20 22:18:59.538 +06:00 [INF] Start installing Hangfire SQL objects...
+2025-09-20 22:19:00.075 +06:00 [INF] Hangfire SQL objects installed.
+2025-09-20 22:19:00.396 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-C1PAIKG\SQLEXPRESS01@UserManagementSystem'
+2025-09-20 22:19:00.396 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-20 22:19:00.396 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-20 22:19:00.415 +06:00 [DBG] Execution loop BackgroundServerProcess:a3097737 has started in 9.2017 ms
+2025-09-20 22:19:00.583 +06:00 [INF] Server desktop-c1paikg:21300:a820dfc4 successfully announced in 164.7966 ms
+2025-09-20 22:19:00.592 +06:00 [DBG] Execution loop ServerHeartbeatProcess:a7ee303a has started in 7.7827 ms
+2025-09-20 22:19:00.593 +06:00 [INF] Server desktop-c1paikg:21300:a820dfc4 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-20 22:19:00.600 +06:00 [DBG] Execution loop ServerWatchdog:f81cb69e has started in 6.6319 ms
+2025-09-20 22:19:00.608 +06:00 [DBG] Execution loop ServerJobCancellationWatcher:43af2b7e has started in 8.5595 ms
+2025-09-20 22:19:00.641 +06:00 [DBG] Execution loop SqlServerHeartbeatProcess:21eb3862 has started in 39.9959 ms
+2025-09-20 22:19:00.684 +06:00 [DBG] Execution loop ExpirationManager:a108f9a6 has started in 76.4777 ms
+2025-09-20 22:19:00.694 +06:00 [DBG] Execution loop CountersAggregator:6243d74a has started in 10.3251 ms
+2025-09-20 22:19:00.696 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:19:00.720 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 22:19:00.790 +06:00 [DBG] Execution loop Worker:4c7b037f has started in 105.0371 ms
+2025-09-20 22:19:00.816 +06:00 [DBG] Execution loop Worker:9a6902e6 has started in 131.7846 ms
+2025-09-20 22:19:00.830 +06:00 [DBG] Execution loop Worker:fb160759 has started in 145.3144 ms
+2025-09-20 22:19:00.847 +06:00 [DBG] Execution loop Worker:1ea1a4c0 has started in 162.676 ms
+2025-09-20 22:19:00.848 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 22:19:00.881 +06:00 [DBG] Execution loop Worker:c4c04e4b has started in 196.318 ms
+2025-09-20 22:19:00.906 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 22:19:00.928 +06:00 [DBG] Execution loop Worker:2af6b8a7 has started in 242.9706 ms
+2025-09-20 22:19:00.931 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 22:19:00.939 +06:00 [DBG] Execution loop Worker:d4173e88 has started in 254.3605 ms
+2025-09-20 22:19:00.949 +06:00 [DBG] Execution loop Worker:30b831d5 has started in 264.1604 ms
+2025-09-20 22:19:00.955 +06:00 [DBG] Execution loop Worker:69f993f6 has started in 270.3133 ms
+2025-09-20 22:19:00.961 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 22:19:00.997 +06:00 [DBG] Execution loop Worker:e450ffc8 has started in 277.5232 ms
+2025-09-20 22:19:00.997 +06:00 [DBG] Execution loop Worker:1d55b6da has started in 312.2655 ms
+2025-09-20 22:19:01.006 +06:00 [DBG] Execution loop Worker:0f210907 has started in 321.6064 ms
+2025-09-20 22:19:01.059 +06:00 [DBG] Execution loop Worker:5acf9f4a has started in 374.0435 ms
+2025-09-20 22:19:01.059 +06:00 [DBG] Execution loop Worker:7eaf9e06 has started in 374.0871 ms
+2025-09-20 22:19:01.093 +06:00 [DBG] Execution loop Worker:5d75cb18 has started in 408.5392 ms
+2025-09-20 22:19:01.093 +06:00 [DBG] Execution loop Worker:b9e61756 has started in 408.5396 ms
+2025-09-20 22:19:01.099 +06:00 [DBG] Execution loop Worker:a8c69856 has started in 414.4584 ms
+2025-09-20 22:19:01.102 +06:00 [DBG] Execution loop Worker:eaf01839 has started in 417.7587 ms
+2025-09-20 22:19:01.139 +06:00 [DBG] Execution loop Worker:eddce3a8 has started in 454.3986 ms
+2025-09-20 22:19:01.139 +06:00 [DBG] Execution loop Worker:2baa9922 has started in 454.6943 ms
+2025-09-20 22:19:01.169 +06:00 [DBG] Execution loop DelayedJobScheduler:e33e1af3 has started in 30.0535 ms
+2025-09-20 22:19:01.186 +06:00 [INF] Server desktop-c1paikg:21300:a820dfc4 all the dispatchers started
+2025-09-20 22:19:01.191 +06:00 [DBG] Execution loop RecurringJobScheduler:0fd2785a has started in 22.4808 ms
+2025-09-20 22:19:30.857 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:19:55.435 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-20 22:19:56.859 +06:00 [INF] User logged in successfully
+2025-09-20 22:20:01.071 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:20:31.112 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:21:01.124 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:21:31.149 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:22:01.167 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:22:31.181 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:23:01.189 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:23:31.197 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:24:00.691 +06:00 [INF] 1 servers were removed due to timeout
+2025-09-20 22:24:00.846 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:24:01.213 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:24:31.245 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:25:01.264 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:25:31.284 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:26:01.300 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:26:31.318 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:27:01.342 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:27:31.381 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:28:01.425 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:28:31.444 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:29:00.931 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:29:01.459 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:29:31.492 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:30:01.521 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:30:31.539 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:31:01.548 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:31:31.559 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:32:01.594 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:32:31.612 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:33:01.629 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:33:31.647 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:34:00.979 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:34:03.927 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:34:33.946 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:35:03.959 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:35:33.979 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:36:04.005 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:36:34.016 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:37:04.030 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:37:34.047 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:38:04.073 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:38:34.090 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:39:01.090 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:39:04.120 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:39:34.139 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:40:04.158 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:40:34.174 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:41:04.192 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:41:34.218 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:42:04.257 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:42:34.299 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:43:04.303 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:43:34.319 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:44:01.129 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:44:04.337 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:44:34.351 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:45:04.359 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:45:34.378 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:46:04.393 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:46:34.407 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:47:04.425 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:47:34.431 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:48:04.451 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:48:34.460 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:49:01.067 +06:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2025-09-20 22:49:01.072 +06:00 [DBG] Removing outdated records from the 'Job' table...
+2025-09-20 22:49:01.077 +06:00 [DBG] Removing outdated records from the 'List' table...
+2025-09-20 22:49:01.079 +06:00 [DBG] Removing outdated records from the 'Set' table...
+2025-09-20 22:49:01.080 +06:00 [DBG] Removing outdated records from the 'Hash' table...
+2025-09-20 22:49:01.193 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:49:04.466 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:49:34.481 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:50:04.490 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:50:34.504 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:51:04.514 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:51:34.531 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:52:04.538 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:52:34.548 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:53:04.564 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:53:34.573 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:54:01.269 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:54:04.593 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:54:34.609 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:55:04.620 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:55:34.631 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:56:04.638 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:56:34.659 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:57:04.680 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:57:34.690 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:58:04.699 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:58:34.719 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:59:01.337 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 22:59:04.739 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 22:59:34.757 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:00:04.777 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:00:34.788 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:01:04.806 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:01:34.823 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:02:04.837 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:02:34.848 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:03:04.859 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:03:34.871 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent
+2025-09-20 23:04:01.403 +06:00 [DBG] Aggregating records in 'Counter' table...
+2025-09-20 23:04:04.893 +06:00 [DBG] Server desktop-c1paikg:21300:a820dfc4 heartbeat successfully sent

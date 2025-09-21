@@ -5,10 +5,13 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using UserManagementSystem.Domain.Utilities;
+using UserManagementSystem.Infrastructure.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using UserManagementSystem.Domain;
+using UserManagementSystem.Domain.Dtos;
 using UserManagementSystem.Domain.Models;
 using UserManagementSystem.Domain.Repositorys;
 using UserManagementSystem.Infrastructure.Repositories;
@@ -19,11 +22,13 @@ namespace UserManagementSystem.Infrastructure
     {
         private readonly UserManagementSystemContext _dbContext;
         private readonly IConfiguration _configuration;
+        public ISqlUtility SqlUtility { get; private set; }
         public UnitOfWork(UserManagementSystemContext dbContext,IUserRepository userRepository,IConfiguration configuration)
         {
             _dbContext = dbContext;
             UserRepository = userRepository;
             _configuration = configuration;
+            SqlUtility = new SqlUtility(_dbContext.Database.GetDbConnection());
         }
         public IUserRepository UserRepository { get; private set; }
         public async Task SaveAsync()
@@ -31,6 +36,30 @@ namespace UserManagementSystem.Infrastructure
             await _dbContext.SaveChangesAsync();
         }
 
+
+        public async Task<(IList<User> data, int total, int totalDisplay)> GetUsersSP(int pageIndex,
+          int pageSize, string? order, UserSearchDto request)
+        {
+            var procedureName = "GetUsers";
+
+            var result = await SqlUtility.QueryWithStoredProcedureAsync<User>(procedureName,
+                new Dictionary<string, object>
+                {
+                    { "PageIndex", pageIndex },
+                    { "PageSize", pageSize },
+                    { "OrderBy", order?? "Name" },
+                    { "Name", string.IsNullOrEmpty(request.Name) ? null : request.Name },
+                    { "UserName", string.IsNullOrEmpty(request.UserName) ? null : request.UserName }
+
+                },
+                new Dictionary<string, Type>
+                {
+                    { "Total", typeof(int) },
+                    { "TotalDisplay", typeof(int) },
+                });
+
+            return (result.result, (int)result.outValues["Total"], (int)result.outValues["TotalDisplay"]);
+        }
         public async Task<string?> LoginAsync(LoginRequest loginrequest)
         {
             if (!string.IsNullOrEmpty(loginrequest.UserName) && !string.IsNullOrEmpty(loginrequest.Password))

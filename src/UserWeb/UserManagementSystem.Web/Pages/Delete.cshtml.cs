@@ -26,7 +26,7 @@ namespace UserManagementSystem.Web.Pages
 
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await client.GetAsync($"api/Users/id?id={id}");
+            var response = await client.GetAsync($"api/Users/GetUserById/id?id={id}");
             if (response.IsSuccessStatusCode)
             {
                 var json = await response.Content.ReadAsStringAsync();
@@ -44,7 +44,7 @@ namespace UserManagementSystem.Web.Pages
            
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await client.DeleteAsync($"api/Users/id?id={User.Id}");
+            var response = await client.DeleteAsync($"api/Users/Delete/id?id={User.Id}");
 
             if (response.IsSuccessStatusCode)
             {

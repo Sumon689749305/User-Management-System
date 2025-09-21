@@ -23,7 +23,8 @@ public class RequireLoginMiddleware
         "/logout",
         "/css",
         "/js",
-        "/lib"
+        "/lib",
+        "Styles"
     };
 
     // If not logged in and path not in allowed list → redirect to login

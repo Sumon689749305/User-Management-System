@@ -37,7 +37,7 @@ namespace UserManagementSystem.Web.Pages
             var json = JsonSerializer.Serialize(User);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            var response = await client.PostAsync("api/Users", content);
+            var response = await client.PostAsync("api/Users/AddUser", content);
 
             if (response.IsSuccessStatusCode)
             {
