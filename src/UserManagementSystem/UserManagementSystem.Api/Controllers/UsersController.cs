@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Text.Json;
 using System.Web;
 using AutoMapper;
 using MediatR;
@@ -26,11 +27,12 @@ namespace UserManagementSystem.Api.Controllers
         }
 
 
-        [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [HttpGet] 
         public async Task<IActionResult> GetAllUsers()
         {
+            _logger.LogInformation("Users fetch");
             var users = await _mediator.Send(new GetUserQuery());
+            _logger.LogInformation("Fetched users: {Users}", JsonSerializer.Serialize(users));
             _logger.LogInformation("Users fetched successfully");
             return Ok(users);
         }

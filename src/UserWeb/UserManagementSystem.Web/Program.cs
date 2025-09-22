@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
-
+// Read API base URL from configuration
+var apiBaseUrl = builder.Configuration["ApiBaseUrl"];
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient("API", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:7089/"); // API base URL
+    client.BaseAddress = new Uri(apiBaseUrl); // API base URL
 });
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>

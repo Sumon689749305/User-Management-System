@@ -34,7 +34,7 @@ try
 
     builder.Services.AddDbContext<UserManagementSystemContext>(options =>
        options.UseSqlServer(connectionString, b => b.MigrationsAssembly(migrationAssembly)));
-
+    Log.Information("AddDbcontext......");
     //Serilog Configuration
     builder.Host.UseSerilog((context, lc) =>
     lc.MinimumLevel.Debug()
@@ -90,15 +90,14 @@ try
 
     var app = builder.Build();
 
-    // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
-    {
+    //Configure the HTTP request pipeline.
+     
         app.MapOpenApi();
         app.UseSwaggerUI(options =>
         {
             options.SwaggerEndpoint("/openapi/v1.json", "Api");
         });
-    }
+       
 
     app.UseHttpsRedirection();
 

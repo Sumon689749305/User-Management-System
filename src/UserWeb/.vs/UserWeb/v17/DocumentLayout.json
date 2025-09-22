@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|d:\\.netprojectjob\\crud user\\user-management-system\\src\\userweb\\usermanagementsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|solutionrelative:usermanagementsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|d:\\.netprojectjob\\crud user\\user-management-system\\src\\userweb\\usermanagementsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|solutionrelative:usermanagementsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|d:\\.netprojectjob\\crud user\\user-management-system\\src\\userweb\\usermanagementsystem.web\\pages\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|solutionrelative:usermanagementsystem.web\\pages\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -55,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|solutionrelative:usermanagementsystem.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|d:\\.netprojectjob\\crud user\\user-management-system\\src\\userweb\\usermanagementsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|solutionrelative:usermanagementsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|d:\\.netprojectjob\\crud user\\user-management-system\\src\\userweb\\usermanagementsystem.web\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C19E6B50-8EC0-452B-B2D9-A4C20EF9CF35}|UserManagementSystem.Web\\UserManagementSystem.Web.csproj|solutionrelative:usermanagementsystem.web\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -94,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,19 +110,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "UserManagementSystem.Web\\appsettings.json",
+              "ToolTip": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\appsettings.json",
+              "RelativeToolTip": "UserManagementSystem.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-21T20:43:40.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Program.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Program.cs",
               "ToolTip": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Program.cs",
               "RelativeToolTip": "UserManagementSystem.Web\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAewCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T04:10:10.915Z"
+              "WhenOpened": "2025-09-15T04:10:10.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "User.cshtml.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\User.cshtml.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\User.cshtml.cs",
@@ -126,12 +144,11 @@
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\User.cshtml.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAUwCUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T14:20:25.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T14:20:25.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Logout.cshtml.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Deshboard.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Deshboard.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Deshboard.cshtml",
@@ -151,12 +168,11 @@
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\Deshboard.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T12:14:49.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T12:14:49.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Login.cshtml.cs",
@@ -169,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Shared\\_Layout.cshtml",
@@ -177,25 +193,24 @@
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T04:42:48.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T04:42:48.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "User.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\User.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\User.cshtml",
               "ToolTip": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\User.cshtml",
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\User.cshtml",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAwwG0AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwG0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-15T14:18:26.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EditUser.cshtml.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\EditUser.cshtml.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\EditUser.cshtml.cs",
@@ -208,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RequireLoginMiddleware.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Middleware\\RequireLoginMiddleware.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Middleware\\RequireLoginMiddleware.cs",
@@ -221,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Logout.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Logout.cshtml",
@@ -233,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AddUser.cshtml.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\AddUser.cshtml.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\AddUser.cshtml.cs",
@@ -246,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "EditUser.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\EditUser.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\EditUser.cshtml",
@@ -254,12 +269,11 @@
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\EditUser.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T16:33:41.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T16:33:41.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AddUserModel.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Models\\AddUserModel.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Models\\AddUserModel.cs",
@@ -272,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Delete.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Delete.cshtml",
@@ -280,12 +294,11 @@
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T17:16:46.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T17:16:46.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Delete.cshtml.cs",
@@ -298,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AddUser.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\AddUser.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\AddUser.cshtml",
@@ -306,12 +319,11 @@
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\AddUser.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T06:53:35.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T06:53:35.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Index.cshtml.cs",
@@ -323,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Index.cshtml",
@@ -331,12 +343,11 @@
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T12:35:17.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T12:35:17.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Deshboard.cshtml.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Deshboard.cshtml.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Deshboard.cshtml.cs",
@@ -348,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "LoginRequestModel.cs",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Models\\LoginRequestModel.cs",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Models\\LoginRequestModel.cs",
@@ -361,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\.NetProjectJob\\CRUD User\\User-Management-System\\src\\UserWeb\\UserManagementSystem.Web\\Pages\\Login.cshtml",
               "RelativeDocumentMoniker": "UserManagementSystem.Web\\Pages\\Login.cshtml",
@@ -369,8 +380,7 @@
               "RelativeToolTip": "UserManagementSystem.Web\\Pages\\Login.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T04:13:20.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T04:13:20.416Z"
             }
           ]
         }

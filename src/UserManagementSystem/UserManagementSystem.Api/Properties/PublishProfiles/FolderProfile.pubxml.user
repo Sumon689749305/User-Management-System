@@ -3,7 +3,16 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\.NetProjectJob\Publish</_PublishTargetUrl>
-    <History>True|2025-09-19T04:19:52.7667243Z||;</History>
+    <History>True|2025-09-21T20:14:11.9090926Z||;True|2025-09-22T00:32:21.0202914+06:00||;True|2025-09-22T00:03:13.9821978+06:00||;True|2025-09-21T23:48:24.1223861+06:00||;True|2025-09-21T22:02:39.8509237+06:00||;True|2025-09-21T21:45:01.3136428+06:00||;True|2025-09-21T21:43:50.0540310+06:00||;True|2025-09-21T21:15:06.0772738+06:00||;True|2025-09-21T21:10:37.0662075+06:00||;True|2025-09-21T21:04:45.3952356+06:00||;True|2025-09-21T20:51:13.2561079+06:00||;True|2025-09-21T20:36:52.3759076+06:00||;True|2025-09-21T20:31:44.2409977+06:00||;True|2025-09-19T10:19:52.7667243+06:00||;</History>
     <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="HangfireConnection">
+      <Value>server=DESKTOP-C1PAIKG\SQLEXPRESS01%3bDatabase=UserManagementSystem%3bUser Id=developer%3bpassword=123456%3b Trusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="NamedConnectionString">
+      <Value>server=DESKTOP-C1PAIKG\SQLEXPRESS01%3bDatabase=UserManagementSystem%3bUser Id=developer%3bpassword=123456%3b Trusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>
